@@ -112,9 +112,7 @@ async function callNvidiaNIM(apiKey, model, systemPrompt, userPrompt, maxRetries
           ],
           temperature: 0.1,
           max_tokens: 4096,
-          // NVIDIA NIM 支援 response_format json_object
-          // 注意：開這個會強制純 JSON 輸出，但部分模型可能不支援
-          // 為相容性，這裡不指定，讓模型自然回應（腳本有 fallback 處理 markdown）
+          response_format: { type: 'json_object' },
         }),
       });
       if (res.status === 429) {
@@ -215,9 +213,9 @@ async function cmdRun() {
     return (async () => {
       const outputPath = path.join(responseDir, `batch_${batchNum}.json`);
       const batch = JSON.parse(fs.readFileSync(path.join(BATCH_DIR, f), 'utf8'));
-      const itemsList = batch.map((b) => `- ${b.mainName}（變體：${b.variants.join('、')}）`).join('\n');
+      const itemsList = batch.map((b) => `- ${b.mainName}`).join('\n');
       const systemPrompt = readPrompt();
-      const userPrompt = `品項清單：\n${itemsList}\n\nJSON：`;
+      const userPrompt = `重要：你只能回傳一個 JSON 物件，絕對不要回傳任何其他文字或解釋。\n品項清單：\n${itemsList}\n\n必須嚴格遵守以下格式：\n{"items": [{"name": "品項名", "avgWeightKg": 數字, "weightUnit": "perPiece|perBundle|perKg", "confidence": "high|medium|low", "note": "說明"}, ...]}\n\nJSON：`;
 
       try {
         const t0 = Date.now();
@@ -256,6 +254,23 @@ function cmdMerge() {
     process.exit(1);
   }
 
+  // 建立 mainName → variants 映射（從 batch input）
+  const mainToVariants = new Map();
+  const inputFiles = fs.readdirSync(BATCH_DIR)
+    .filter((f) => f.startsWith('batch_') && f.endsWith('_input.json'));
+  for (const f of inputFiles) {
+    try {
+      const batch = JSON.parse(fs.readFileSync(path.join(BATCH_DIR, f), 'utf8'));
+      for (const item of batch) {
+        if (item.mainName && item.variants) {
+          mainToVariants.set(item.mainName, item.variants);
+        }
+      }
+    } catch (e) {
+      console.warn(`⚠ ${f} 讀取失敗:`, e.message);
+    }
+  }
+
   const files = fs.readdirSync(responsesDir).filter((f) => f.startsWith('batch_') && f.endsWith('.json'));
   const allWeights = [];
   for (const f of files) {
@@ -288,10 +303,34 @@ function cmdMerge() {
   }
   if (flattenedCount > 0) console.log(`攤平 nested object: ${flattenedCount} 筆`);
 
+  // 擴展 mainName 回應到所有 variants
+  const expanded = [];
+  const seen = new Set();
+  for (const w of valid) {
+    const variants = mainToVariants.get(w.name);
+    if (variants) {
+      // 這是一個 mainName 回應，擴展到所有 variants
+      for (const v of variants) {
+        if (!seen.has(v)) {
+          expanded.push({ ...w, name: v });
+          seen.add(v);
+        }
+      }
+    } else {
+      // 已是 variant name 或不在 input 中，直接保留
+      if (!seen.has(w.name)) {
+        expanded.push(w);
+        seen.add(w.name);
+      }
+    }
+  }
+
+  console.log(`擴展後（mainName→variants）: ${expanded.length} 筆`);
+
   const catalog = readCatalog();
   const allVariants = new Set();
   for (const item of catalog) if (item.name) allVariants.add(item.name);
-  const covered = new Set(valid.map((w) => w.name));
+  const covered = new Set(expanded.map((w) => w.name));
   const missing = [...allVariants].filter((v) => !covered.has(v));
   console.log(`Catalog 變體總數: ${allVariants.size}，已覆蓋: ${covered.size}，缺漏: ${missing.length}`);
   if (missing.length && missing.length <= 20) {
@@ -300,8 +339,8 @@ function cmdMerge() {
 
   const dir = path.dirname(OUTPUT_PATH);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(valid, null, 2));
-  console.log(`✓ 寫入 ${valid.length} 筆到 ${OUTPUT_PATH}`);
+  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(expanded, null, 2));
+  console.log(`✓ 寫入 ${expanded.length} 筆到 ${OUTPUT_PATH}`);
 }
 
 function cmdValidate() {
@@ -429,9 +468,9 @@ async function cmdTest() {
   }
   const firstBatch = inputFiles[0];
   const batch = JSON.parse(fs.readFileSync(path.join(BATCH_DIR, firstBatch), 'utf8'));
-  const itemsList = batch.map((b) => `- ${b.mainName}（變體：${b.variants.join('、')}）`).join('\n');
+  const itemsList = batch.map((b) => `- ${b.mainName}`).join('\n');
   const systemPrompt = readPrompt();
-  const userPrompt = `品項清單：\n${itemsList}\n\nJSON：`;
+  const userPrompt = `重要：你只能回傳一個 JSON 物件，絕對不要回傳任何其他文字或解釋。\n品項清單：\n${itemsList}\n\n必須嚴格遵守以下格式：\n{"items": [{"name": "品項名", "avgWeightKg": 數字, "weightUnit": "perPiece|perBundle|perKg", "confidence": "high|medium|low", "note": "說明"}, ...]}\n\nJSON：`;
   const model = process.env.NVIDIA_MODEL || DEFAULT_MODEL;
   const keys = loadApiKeys();
   if (keys.length === 0) process.exit(1);

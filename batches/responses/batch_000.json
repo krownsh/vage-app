@@ -1,0 +1,212 @@
+[
+  {
+    "name": "不結球白菜",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一把約500克"
+  },
+  {
+    "name": "中國棗",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約20克"
+  },
+  {
+    "name": "人心果",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約150克"
+  },
+  {
+    "name": "人蔘菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "估計約100克，缺乏資料"
+  },
+  {
+    "name": "仁果類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約50克"
+  },
+  {
+    "name": "仙人掌肉質莖",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一莖約300克"
+  },
+  {
+    "name": "其他仁果",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約80克"
+  },
+  {
+    "name": "其他堅果",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約10克"
+  },
+  {
+    "name": "其他果樹",
+    "avgWeightKg": 1,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "不適用單顆重量"
+  },
+  {
+    "name": "其他果菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約200克"
+  },
+  {
+    "name": "其他果菜苗",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "苗狀，估計一把約50克"
+  },
+  {
+    "name": "其他柑橘",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約150克"
+  },
+  {
+    "name": "其他根菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一根約200克"
+  },
+  {
+    "name": "其他漿果",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約100克"
+  },
+  {
+    "name": "其他瓜菜",
+    "avgWeightKg": 1.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約1.5公斤"
+  },
+  {
+    "name": "其他短期蔬菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "多樣，估計一把約200克"
+  },
+  {
+    "name": "其他穀類",
+    "avgWeightKg": 1,
+    "weightUnit": "perKg",
+    "confidence": "high",
+    "note": "不適用單顆重量"
+  },
+  {
+    "name": "其他花菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約100克"
+  },
+  {
+    "name": "其他花菜苗",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "苗狀，估計一把約30克"
+  },
+  {
+    "name": "其他芽菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "芽狀，估計一把約50克"
+  },
+  {
+    "name": "其他莖菜",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一莖約150克"
+  },
+  {
+    "name": "其他菇類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約100克"
+  },
+  {
+    "name": "其他葉菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "平均一把約200克"
+  },
+  {
+    "name": "其他葉菜苗",
+    "avgWeightKg": 0.04,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "苗狀，估計一把約40克"
+  },
+  {
+    "name": "其他蔬菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約250克"
+  },
+  {
+    "name": "其他蔬菜類",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約200克"
+  },
+  {
+    "name": "其他藷類",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約300克"
+  },
+  {
+    "name": "其他豆菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約100克"
+  },
+  {
+    "name": "其他豆類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約50克"
+  },
+  {
+    "name": "其他長期蔬菜",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約500克"
+  }
+]

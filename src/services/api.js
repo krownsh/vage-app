@@ -201,6 +201,20 @@ export async function loadCropCatalog() {
   }
 }
 
+// 載入市場別名對照表
+let _aliasCache = null;
+export async function loadMarketAlias() {
+  if (_aliasCache) return _aliasCache;
+  try {
+    const res = await fetch('/data/market_alias.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    _aliasCache = await res.json();
+    return _aliasCache;
+  } catch {
+    return {};
+  }
+}
+
 // 使用者導向分類
 // PLV1: 001=稻米類(已過濾), 002=蔬菜類, 003=果樹類, 004=花卉類(已過濾), 005=雜糧類
 // PLV2: 01=葉菜, 02=漿果, 03=莖菜, 04=根菜, 05=花菜/堅果, 06=豆菜,

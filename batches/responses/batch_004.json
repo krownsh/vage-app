@@ -1,0 +1,212 @@
+[
+  {
+    "name": "橄欖",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約2克"
+  },
+  {
+    "name": "檬果",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檳榔",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆檳榔約50克"
+  },
+  {
+    "name": "櫻桃",
+    "avgWeightKg": 0.025,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均單顆約25克"
+  },
+  {
+    "name": "櫻桃進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口櫻桃略大約30克"
+  },
+  {
+    "name": "毛木耳",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克（估計）"
+  },
+  {
+    "name": "毛豆",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆毛豆約50克"
+  },
+  {
+    "name": "毛豆進口",
+    "avgWeightKg": 0.06,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口毛豆略大約60克"
+  },
+  {
+    "name": "水合歡",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "水合歡重量變異大約200克"
+  },
+  {
+    "name": "水芹",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約150克"
+  },
+  {
+    "name": "水菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約100克"
+  },
+  {
+    "name": "水蓮",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆水蓮約300克"
+  },
+  {
+    "name": "油柑",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約120克"
+  },
+  {
+    "name": "油江菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約200克（估計）"
+  },
+  {
+    "name": "油菜",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約150克"
+  },
+  {
+    "name": "波羅蜜",
+    "avgWeightKg": 1.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均單顆約1.5公斤"
+  },
+  {
+    "name": "波羅蜜進口",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口波羅蜜約1.2公斤"
+  },
+  {
+    "name": "波羅門蔘",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克（估計）"
+  },
+  {
+    "name": "洋菇",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約200克"
+  },
+  {
+    "name": "洋蔥",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "海帶",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克（估計）"
+  },
+  {
+    "name": "海菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約50克（估計）"
+  },
+  {
+    "name": "滑菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約150克"
+  },
+  {
+    "name": "漿果類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約100克（估計，變異大）"
+  },
+  {
+    "name": "澳洲胡桃",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約35克"
+  },
+  {
+    "name": "無花果",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約50克"
+  },
+  {
+    "name": "燕麥",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perKg",
+    "confidence": "high",
+    "note": "已秤重品，單位為公斤"
+  },
+  {
+    "name": "爪哇橄欖",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約30克（估計）"
+  },
+  {
+    "name": "牛肝菌",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約200克"
+  },
+  {
+    "name": "牛蒡",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約400克（估計）"
+  }
+]

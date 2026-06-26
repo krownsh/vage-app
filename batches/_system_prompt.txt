@@ -12,9 +12,9 @@
 
 ```json
 {
-  "name": "玉米",
-  "avgWeightKg": 0.30,
-  "weightUnit": "perPiece",
+  "name": "玉米-白玉米",
+  "avgWeightKg": 0.30,           // 平均重量（公斤），沒把握可填 null
+  "weightUnit": "perPiece",      // perPiece / perBundle / perKg（沒單位的秤重品填 perKg）
   "confidence": "high|medium|low",
   "note": "帶殼玉米筍約 200g，去殼後約 100g；大根玉米 300-400g"
 }
@@ -52,7 +52,7 @@
 | 蘋果 | 顆 | 0.2~0.3 kg |
 | 芭樂 | 顆 | 0.3~0.5 kg |
 
-## 注意事項
+## LLM 設定：NVIDIA NIM Hosted API
 
 - **端點**：`https://integrate.api.nvidia.com/v1/chat/completions`
 - **模型**：`nvidia/llama-3.3-nemotron-super-49b-v1`（預設，NVIDIA 優化版中英文強）
@@ -77,9 +77,10 @@
 
 重要規則：
 1. 只回傳 JSON，不要任何其他文字
-2. **不要填 null，沒有把握就給保守估計並標注 confidence=low**
+2. 沒有把握的填 null，不要猜
 3. weightUnit 規則：perPiece = 一顆/條/株有明確單位，perBundle = 一束/把，perKg = 已秤重品
 4. 台灣市場常見尺寸，不要用國外品種
+5. 同一 plv3 主品項的不同變體，重量可能差異（例如 玉米筍 vs 大玉米）
 
 品項清單：
 {ITEMS}
@@ -133,8 +134,9 @@ node scripts/estimate_crop_weights.cjs status
 
 ## 注意事項
 
-- 沒有把握就給保守估計並標 confidence=low，不要 null
-- 同一 mainName 的多變體共用同一筆估計即可
+- 不要在沒有把握時填值，寧可 null
+- LLM 容易低估變異（例如「蘿蔔-梅花」可能跟「蘿蔔-其他」差異大）
 - 完成後**人工抽樣校對** 10-20 筆
+- 校對後再加 `confidence` 標記，未來可做 fallback
 - API 回應偶爾會把 JSON 包在 markdown code block，腳本有處理
 - 失敗的 batch 會留在 `batches/responses/` 不存在狀態，下次 `run` 可重試（已存在的會 skip）

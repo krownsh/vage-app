@@ -5,8 +5,8 @@ import ProductCard from './components/ProductCard/ProductCard';
 import DetailModal from './components/DetailModal/DetailModal';
 import CheckerModal from './components/CheckerModal/CheckerModal';
 import FAB from './components/FAB/FAB';
-import { fetchPrices, loadCropCatalog } from './services/api';
-import { aggregatePrices, filterCrops } from './utils/aggregation';
+import { fetchPrices, loadCropCatalog, loadMarketAlias } from './services/api';
+import { aggregatePrices, filterCrops, setMarketAlias } from './utils/aggregation';
 import { useFavorites } from './hooks/useFavorites';
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
   const [query, setQuery] = useState('');
   const [detailCrop, setDetailCrop] = useState(null);
   const [showChecker, setShowChecker] = useState(false);
-  const [cacheMeta, setCacheMeta] = useState(null); // { lastUpdated, source, staleDays }
+  const [cacheMeta, setCacheMeta] = useState(null);
   const { favorites, toggleFavorite } = useFavorites();
 
   // 計算資料距今幾天（用字串比對，避免時鐘誤差）
@@ -31,15 +31,17 @@ export default function App() {
     return Math.max(0, diff);
   }
 
-  // 並行：載入作物目錄 + 行情資料
+  // 並行：載入作物目錄 + 行情資料 + 市場別名
   useEffect(() => {
     Promise.all([
       loadCropCatalog(),
       fetchPrices(),
+      loadMarketAlias(),
     ])
-      .then(([cat, priceResult]) => {
+      .then(([cat, priceResult, alias]) => {
         setCatalog(cat);
         setRawData(priceResult?.data || []);
+        setMarketAlias(alias); // 寫入 aggregation module
         setCacheMeta({
           lastUpdated: priceResult?.lastUpdated || null,
           source: priceResult?.source || 'unknown',
@@ -54,10 +56,15 @@ export default function App() {
   }, []);
 
   const crops = useMemo(() => aggregatePrices(rawData, catalog), [rawData, catalog]);
-  const filtered = useMemo(
-    () => filterCrops(crops, { category, query, favorites }),
-    [crops, category, query, favorites]
-  );
+
+  const filtered = useMemo(() => {
+    const base = filterCrops(crops, { category, query, favorites });
+    return [...base].sort((a, b) => {
+      const countA = Object.values(a.markets || {}).filter((m) => m?.avg != null).length;
+      const countB = Object.values(b.markets || {}).filter((m) => m?.avg != null).length;
+      return countB - countA;
+    });
+  }, [crops, category, query, favorites]);
 
   return (
     <div className="app">
@@ -92,8 +99,6 @@ export default function App() {
           <ProductCard
             key={crop.mainName}
             crop={crop}
-            favorites={favorites}
-            onToggleFavorite={toggleFavorite}
             onOpenDetail={() => setDetailCrop(crop)}
           />
         ))}
@@ -104,6 +109,8 @@ export default function App() {
           crop={detailCrop}
           rawData={rawData}
           onClose={() => setDetailCrop(null)}
+          favorites={favorites}
+          onToggleFavorite={toggleFavorite}
         />
       )}
 

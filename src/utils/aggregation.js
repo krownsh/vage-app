@@ -1,5 +1,12 @@
 import { buildCropIndex, lookupCrop, splitMarketName } from './cropIndex.js';
 
+// 市場別名（由 App.jsx 初始化後寫入）
+let _marketAlias = {};
+
+export function setMarketAlias(alias) {
+  _marketAlias = alias || {};
+}
+
 // 產季地圖（月份 1-12）
 // 來源：手寫預設值（無現成政府開放資料）
 // 後續計畫：用 LLM 批次補完（每個 catalog 品項 + 對應產期月份）
@@ -47,7 +54,7 @@ export function isPeakSeason(cropName) {
 
 // 將 raw API records 聚合成作物清單
 export function aggregatePrices(records, catalog = []) {
-  const index = buildCropIndex(catalog);
+  const index = buildCropIndex(catalog, _marketAlias);
 
   // 第一階段：依 (cropName, marketName) 彙總單一變體 × 市場的價格
   const variantMap = {};
@@ -56,7 +63,8 @@ export function aggregatePrices(records, catalog = []) {
     const name = (r.作物名稱 || '').trim();
     const market = (r.市場名稱 || '未知').trim();
     const price = parseFloat(r.平均價);
-    if (!name || isNaN(price) || price <= 0) continue;
+    // 過濾：空白名稱、髒資料、休市記錄、無效價格
+    if (!name || name === '休市' || isNaN(price) || price <= 0) continue;
 
     const key = `${name}|${market}`;
     if (!variantMap[key]) {
@@ -167,7 +175,10 @@ export function filterCrops(crops, { category, query, favorites = [] }) {
 
   if (query) {
     const q = query.toLowerCase();
-    result = result.filter(c => c.mainName.toLowerCase().includes(q));
+    result = result.filter(c =>
+      c.mainName.toLowerCase().includes(q) ||
+      (c.variants || []).some(v => v.toLowerCase().includes(q))
+    );
   }
 
   // 划算優先（均價越低越前面）

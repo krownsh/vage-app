@@ -1,0 +1,226 @@
+[
+  {
+    "mainName": "食茱萸",
+    "plv3_name": "食茱萸",
+    "variants": [
+      "食茱萸"
+    ]
+  },
+  {
+    "mainName": "香瓜茄",
+    "plv3_name": "香瓜茄",
+    "variants": [
+      "香瓜茄"
+    ]
+  },
+  {
+    "mainName": "香芹菜",
+    "plv3_name": "香芹菜",
+    "variants": [
+      "香芹菜"
+    ]
+  },
+  {
+    "mainName": "香芹菜進口",
+    "plv3_name": "香芹菜",
+    "variants": [
+      "香芹菜進口"
+    ]
+  },
+  {
+    "mainName": "香菇",
+    "plv3_name": "香菇",
+    "variants": [
+      "香菇"
+    ]
+  },
+  {
+    "mainName": "香蕉",
+    "plv3_name": "香蕉",
+    "variants": [
+      "香蕉"
+    ]
+  },
+  {
+    "mainName": "馬鈴薯",
+    "plv3_name": "馬鈴薯",
+    "variants": [
+      "馬鈴薯"
+    ]
+  },
+  {
+    "mainName": "馬鈴薯進口",
+    "plv3_name": "馬鈴薯",
+    "variants": [
+      "馬鈴薯進口"
+    ]
+  },
+  {
+    "mainName": "馬齒莧",
+    "plv3_name": "馬齒莧",
+    "variants": [
+      "馬齒莧"
+    ]
+  },
+  {
+    "mainName": "高粱",
+    "plv3_name": "高粱",
+    "variants": [
+      "高粱-其他品種",
+      "高粱-芻料高粱",
+      "高粱"
+    ]
+  },
+  {
+    "mainName": "髮菜",
+    "plv3_name": "髮菜",
+    "variants": [
+      "髮菜"
+    ]
+  },
+  {
+    "mainName": "鮑魚菇",
+    "plv3_name": "鮑魚菇",
+    "variants": [
+      "鮑魚菇"
+    ]
+  },
+  {
+    "mainName": "鱗莖類",
+    "plv3_name": "鱗莖類",
+    "variants": [
+      "鱗莖類"
+    ]
+  },
+  {
+    "mainName": "鳳梨",
+    "plv3_name": "鳳梨",
+    "variants": [
+      "鳳梨-其他品種",
+      "鳳梨-黃金",
+      "鳳梨-甜蜜蜜",
+      "鳳梨-牛奶",
+      "鳳梨-蘋果",
+      "鳳梨-金鑽",
+      "鳳梨-開英",
+      "鳳梨",
+      "鳳梨-香水"
+    ]
+  },
+  {
+    "mainName": "鳳梨進口",
+    "plv3_name": "鳳梨",
+    "variants": [
+      "鳳梨進口"
+    ]
+  },
+  {
+    "mainName": "鴻喜菇",
+    "plv3_name": "鴻喜菇",
+    "variants": [
+      "鴻喜菇"
+    ]
+  },
+  {
+    "mainName": "鵲豆",
+    "plv3_name": "鵲豆",
+    "variants": [
+      "鵲豆"
+    ]
+  },
+  {
+    "mainName": "麵包果",
+    "plv3_name": "麵包果",
+    "variants": [
+      "麵包果",
+      "麵包果"
+    ]
+  },
+  {
+    "mainName": "麻意",
+    "plv3_name": "麻意",
+    "variants": [
+      "麻意"
+    ]
+  },
+  {
+    "mainName": "黃秋葵",
+    "plv3_name": "黃秋葵",
+    "variants": [
+      "黃秋葵"
+    ]
+  },
+  {
+    "mainName": "黃秋葵進口",
+    "plv3_name": "黃秋葵",
+    "variants": [
+      "黃秋葵進口"
+    ]
+  },
+  {
+    "mainName": "黃藤心",
+    "plv3_name": "黃藤心",
+    "variants": [
+      "黃藤心"
+    ]
+  },
+  {
+    "mainName": "黃豆芽",
+    "plv3_name": "黃豆芽",
+    "variants": [
+      "黃豆芽"
+    ]
+  },
+  {
+    "mainName": "黃金果",
+    "plv3_name": "黃金果",
+    "variants": [
+      "黃金果"
+    ]
+  },
+  {
+    "mainName": "黑木耳",
+    "plv3_name": "黑木耳",
+    "variants": [
+      "黑木耳"
+    ]
+  },
+  {
+    "mainName": "黑豆芽",
+    "plv3_name": "黑豆芽",
+    "variants": [
+      "黑豆芽"
+    ]
+  },
+  {
+    "mainName": "龍眼",
+    "plv3_name": "龍眼",
+    "variants": [
+      "龍眼-其他品種",
+      "龍眼-粉殼",
+      "龍眼-十月眼",
+      "龍眼"
+    ]
+  },
+  {
+    "mainName": "龍眼進口",
+    "plv3_name": "龍眼",
+    "variants": [
+      "龍眼進口"
+    ]
+  },
+  {
+    "mainName": "龍葵",
+    "plv3_name": "龍葵",
+    "variants": [
+      "龍葵"
+    ]
+  },
+  {
+    "mainName": "龍鬚菜",
+    "plv3_name": "龍鬚菜",
+    "variants": [
+      "龍鬚菜"
+    ]
+  }
+]

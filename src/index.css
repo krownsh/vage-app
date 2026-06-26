@@ -64,6 +64,41 @@ textarea {
   --flower-bg: #FFF1C7;
   --flower-text: #B67800;
 
+  /* 11 category colors */
+  --cat01-bg: #E8F2D8;
+  /* 葉菜類 - 淺綠 */
+  --cat01-text: #236B34;
+  --cat02-bg: #F5E6FF;
+  /* 漿果類 - 淡紫 */
+  --cat02-text: #7B3FC4;
+  --cat03-bg: #E0F4F4;
+  /* 莖菜類 - 青綠 */
+  --cat03-text: #0D7A72;
+  --cat04-bg: #F8E8C8;
+  /* 根菜類 - 土黃 */
+  --cat04-text: #8A5A00;
+  --cat05-bg: #FFF1C7;
+  /* 堅果類 - 芥末黃 */
+  --cat05-text: #B67800;
+  --cat06-bg: #EDF5E8;
+  /* 豆菜類 - 橄欖綠 */
+  --cat06-text: #3D6B1E;
+  --cat07-bg: #FFF5DC;
+  /* 瓜菜類 - 淡黃 */
+  --cat07-text: #9A6200;
+  --cat08-bg: #FFE8D8;
+  /* 果菜類 - 橙紅 */
+  --cat08-text: #C04000;
+  --cat09-bg: #F0F9E8;
+  /* 芽菜類 - 嫩綠 */
+  --cat09-text: #4A8C1E;
+  --cat10-bg: #F0EBE8;
+  /* 菇蕈類 - 灰褐 */
+  --cat10-text: #6B4C3A;
+  --cat99-bg: #EFE3FF;
+  /* 其他蔬菜類 - 紫色 */
+  --cat99-text: #7B48E8;
+
   /* Text */
   --text-main: #111111;
   --text-secondary: #5D5D5D;
@@ -199,7 +234,7 @@ body {
   align-items: center;
   height: 64px;
   padding: 10px 12px;
-  margin-top: 24px;
+  margin-top: 10px;
   border-radius: 24px;
   background: var(--card);
   border: 1px solid rgba(226, 207, 169, 0.5);
@@ -314,6 +349,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-left: 15px;
 }
 
 .crop-name-row {
@@ -330,7 +366,7 @@ main {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex: 1;
+  /*flex: 1;*/
   min-width: 0;
 }
 
@@ -348,29 +384,71 @@ main {
   white-space: nowrap;
 }
 
+.plv2-tag[data-cat='01'] {
+  background: var(--cat01-bg);
+  color: var(--cat01-text);
+}
+
+.plv2-tag[data-cat='02'] {
+  background: var(--cat02-bg);
+  color: var(--cat02-text);
+}
+
+.plv2-tag[data-cat='03'] {
+  background: var(--cat03-bg);
+  color: var(--cat03-text);
+}
+
 .plv2-tag[data-cat='04'] {
-  background: var(--root-bg);
-  color: var(--root-text);
+  background: var(--cat04-bg);
+  color: var(--cat04-text);
 }
+
 .plv2-tag[data-cat='05'] {
-  background: var(--flower-bg);
-  color: var(--flower-text);
+  background: var(--cat05-bg);
+  color: var(--cat05-text);
 }
+
+.plv2-tag[data-cat='06'] {
+  background: var(--cat06-bg);
+  color: var(--cat06-text);
+}
+
+.plv2-tag[data-cat='07'] {
+  background: var(--cat07-bg);
+  color: var(--cat07-text);
+}
+
+.plv2-tag[data-cat='08'] {
+  background: var(--cat08-bg);
+  color: var(--cat08-text);
+}
+
+.plv2-tag[data-cat='09'] {
+  background: var(--cat09-bg);
+  color: var(--cat09-text);
+}
+
+.plv2-tag[data-cat='10'] {
+  background: var(--cat10-bg);
+  color: var(--cat10-text);
+}
+
 .plv2-tag[data-cat='99'] {
-  background: var(--purple-soft);
-  color: var(--purple-text);
+  background: var(--cat99-bg);
+  color: var(--cat99-text);
 }
 
 .crop-price-row {
   display: flex;
-  align-items: baseline;
+  align-items: flex-end;
   gap: 4px;
 }
 
 .crop-price {
   font-size: 34px;
   line-height: 38px;
-  font-weight: 900;
+  font-weight: 500;
   color: var(--text-main);
   letter-spacing: -0.5px;
   font-variant-numeric: tabular-nums;
@@ -381,14 +459,34 @@ main {
   font-weight: 500;
   color: var(--text-secondary);
   align-self: flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
-.crop-actions {
+.crop-per-unit {
+  margin-left: 12px;
+  text-align: right;
   display: flex;
-  gap: 4px;
-  margin-left: 8px;
-  align-self: center;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.per-unit-label {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.per-unit-price {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-main);
+  font-variant-numeric: tabular-nums;
+}
+
+.per-unit-unit {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-secondary);
 }
 
 .icon-btn {
@@ -408,6 +506,11 @@ main {
   stroke-width: 2px;
 }
 
+.sheet-header .icon-btn {
+  width: 38px;
+  height: 38px;
+}
+
 .fav-btn.active {
   color: #FF6B4A;
   animation: pop 0.18s ease-out;
@@ -417,9 +520,11 @@ main {
   0% {
     transform: scale(0.8);
   }
+
   60% {
     transform: scale(1.12);
   }
+
   100% {
     transform: scale(1);
   }
@@ -553,19 +658,48 @@ main {
   padding-top: 4px;
 }
 
+.detail-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.season-months {
+  display: flex;
+  gap: 5px;
+  margin-top: 8px;
+}
+
+.season-month {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--border-light);
+  color: var(--text-muted);
+}
+
+.season-month.in {
+  background: var(--green-soft);
+  color: var(--green);
+}
+
+.season-month.peak {
+  background: var(--green);
+  color: #fff;
+  box-shadow: 0 0 0 2px var(--yellow);
+}
+
 .sheet-title {
   font-size: 32px;
   line-height: 38px;
   font-weight: 900;
   color: var(--text-main);
-  margin-bottom: 8px;
-}
-
-.sheet-tags {
-  display: flex;
-  gap: 8px;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 /* 當季/非當季 badge */
@@ -618,7 +752,6 @@ main {
 }
 
 .summary-body {
-  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 4px;
@@ -650,6 +783,31 @@ main {
   font-size: 18px;
   font-weight: 600;
   color: var(--text-main);
+}
+
+.summary-per-unit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  margin-left: auto;
+}
+
+.summary-per-unit-wt {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.wt-low {
+  font-size: 11px;
+  color: #D97706;
+}
+
+.summary-per-unit-price {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-main);
+  font-variant-numeric: tabular-nums;
 }
 
 /* ===================== SECTION TITLE ===================== */
@@ -742,6 +900,23 @@ main {
   font-size: 14px;
   color: var(--text-secondary);
   flex-wrap: wrap;
+}
+
+.variant-prices-compact {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.compact-price {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+}
+
+.compact-price.nodata {
+  opacity: 0.4;
 }
 
 .variant-price strong {

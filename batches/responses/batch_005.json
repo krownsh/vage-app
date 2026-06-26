@@ -1,0 +1,212 @@
+[
+  {
+    "name": "牛蒡進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "根據進口牛蒡平均尺寸估計"
+  },
+  {
+    "name": "牧草筍",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "牧草筍尺寸變異大，保守估計"
+  },
+  {
+    "name": "猴頭菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一般市場售賣猴頭菇大小"
+  },
+  {
+    "name": "玉米",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米筍",
+    "avgWeightKg": 0.075,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均玉米筍尺寸"
+  },
+  {
+    "name": "玉米筍進口",
+    "avgWeightKg": 0.085,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口玉米筍稍大"
+  },
+  {
+    "name": "玉米進口",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口玉米一般尺寸"
+  },
+  {
+    "name": "珊瑚菇",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "市場常見珊瑚菇大小"
+  },
+  {
+    "name": "珍珠菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "珍珠菜售賣方式多樣"
+  },
+  {
+    "name": "球莖甘藍",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均球莖甘藍重量"
+  },
+  {
+    "name": "瑞典蕪菁",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一般瑞典蕪菁尺寸"
+  },
+  {
+    "name": "瓜菜類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "瓜菜類太多種，無法統一估計"
+  },
+  {
+    "name": "甘蔗筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "甘蔗筍平均尺寸"
+  },
+  {
+    "name": "甘藍",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍芽菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "甘藍芽菜售賣方式"
+  },
+  {
+    "name": "甘藍進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口甘藍一般尺寸"
+  },
+  {
+    "name": "甘藷",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甜椒",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口甜椒稍大"
+  },
+  {
+    "name": "甜橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙進口",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口甜橙一般尺寸"
+  },
+  {
+    "name": "甜瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜菜根",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甜菜根重量"
+  },
+  {
+    "name": "番木瓜",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番杏",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番杏重量"
+  },
+  {
+    "name": "番石榴",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番茄",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "白木耳",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "白木耳售賣方式多樣"
+  },
+  {
+    "name": "白玉菇",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均白玉菇重量"
+  },
+  {
+    "name": "白靈菇",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均白靈菇重量"
+  }
+]

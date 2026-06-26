@@ -1,0 +1,212 @@
+[
+  {
+    "name": "食茱萸",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "小型水果，平均約50克"
+  },
+  {
+    "name": "香瓜茄",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般單果重約200克"
+  },
+  {
+    "name": "香芹菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約300克"
+  },
+  {
+    "name": "香芹菜進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "香菇",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "乾香菇約10克，新鮮約100克"
+  },
+  {
+    "name": "香蕉",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般香蕉約120克"
+  },
+  {
+    "name": "馬鈴薯",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型馬鈴薯約200克"
+  },
+  {
+    "name": "馬鈴薯進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能有差異"
+  },
+  {
+    "name": "馬齒莧",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型莧菜，估計約10克"
+  },
+  {
+    "name": "高粱",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單穗重量變異大"
+  },
+  {
+    "name": "髮菜",
+    "avgWeightKg": 0.005,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "極輕，估計約5克一把"
+  },
+  {
+    "name": "鮑魚菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型菇類約150克"
+  },
+  {
+    "name": "鱗莖類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "變異大，估計約100克"
+  },
+  {
+    "name": "鳳梨",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口鳳梨可能小"
+  },
+  {
+    "name": "鴻喜菇",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型菇類約200克"
+  },
+  {
+    "name": "鵲豆",
+    "avgWeightKg": 0.005,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "極輕，估計約5克一把"
+  },
+  {
+    "name": "麵包果",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型果實約300克"
+  },
+  {
+    "name": "麻意",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型莖菜，估計約10克"
+  },
+  {
+    "name": "黃秋葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般秋葵約200克"
+  },
+  {
+    "name": "黃秋葵進口",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "黃藤心",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型莖菜，估計約50克"
+  },
+  {
+    "name": "黃豆芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約20克"
+  },
+  {
+    "name": "黃金果",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型果實約150克"
+  },
+  {
+    "name": "黑木耳",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "乾木耳約5克，新鮮約50克"
+  },
+  {
+    "name": "黑豆芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約20克"
+  },
+  {
+    "name": "龍眼",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般龍眼約150克"
+  },
+  {
+    "name": "龍眼進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "龍葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型葵花約200克"
+  },
+  {
+    "name": "龍鬚菜",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "極輕，估計約10克一把"
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "name": "苦瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "苦苣",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-30棗"
+  },
+  {
+    "name": "茄子",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茭白筍",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "去皮後重量"
+  },
+  {
+    "name": "茭白筍進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能較細"
+  },
+  {
+    "name": "茴香",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "茶樹菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "茼蒿",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約15-20棗"
+  },
+  {
+    "name": "草莓",
+    "avgWeightKg": 0.015,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "草莓進口",
+    "avgWeightKg": 0.012,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能較小"
+  },
+  {
+    "name": "草菇",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "荔枝",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "荸薺",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "莖菜類",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-30棗"
+  },
+  {
+    "name": "莧菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約25-35棗"
+  },
+  {
+    "name": "菇蕈類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "菊芋",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "菜心",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "菜豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆進口",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口品可能較細"
+  },
+  {
+    "name": "菠菜",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-25棗"
+  },
+  {
+    "name": "菠菜進口",
+    "avgWeightKg": 0.015,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口品可能較細"
+  },
+  {
+    "name": "菱角",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "菾菜",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約18-22棗"
+  },
+  {
+    "name": "萊豆",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣莖",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單莖重量"
+  },
+  {
+    "name": "萵苣進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能較小"
+  }
+]

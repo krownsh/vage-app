@@ -1,0 +1,212 @@
+[
+  {
+    "name": "松茸",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "新鮮松茸平均重量約200克"
+  },
+  {
+    "name": "枇杷",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般枇杷單果重量約150克"
+  },
+  {
+    "name": "枇杷進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口枇杷可能較小，約120克"
+  },
+  {
+    "name": "果樹類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "太過廣泛，無法估計"
+  },
+  {
+    "name": "果菜類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "類別太廣，無法估計"
+  },
+  {
+    "name": "枸櫞",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "柑橘類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均約100克（變異大）"
+  },
+  {
+    "name": "柚子",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子進口",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口柚子可能較小，約500克"
+  },
+  {
+    "name": "柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿子",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "同柿"
+  },
+  {
+    "name": "柿子進口",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口柿子可能較小"
+  },
+  {
+    "name": "栗子",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆栗子約50克"
+  },
+  {
+    "name": "核果類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "類別太廣，無法估計"
+  },
+  {
+    "name": "根菜類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "太過廣泛，無法估計"
+  },
+  {
+    "name": "桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口桃可能較小"
+  },
+  {
+    "name": "桑椹",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆桑椹約10克"
+  },
+  {
+    "name": "梅",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮梅子約50克"
+  },
+  {
+    "name": "梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "棗椰子",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "棗椰子約150克，變異較大"
+  },
+  {
+    "name": "椰子",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "整個椰子約1.2公斤"
+  },
+  {
+    "name": "椰子進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口椰子可能較小"
+  },
+  {
+    "name": "楊桃",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般楊桃重量約400克"
+  },
+  {
+    "name": "楊梅",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆楊梅約50克"
+  },
+  {
+    "name": "榴槤",
+    "avgWeightKg": 1.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般榴槤重量約1.5公斤"
+  },
+  {
+    "name": "榴槤蜜",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "榴槤蜜可能較小或去皮"
+  },
+  {
+    "name": "榴槤進口",
+    "avgWeightKg": 1.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口榴槤重量約1.3公斤"
+  },
+  {
+    "name": "樹番茄",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆樹番茄約100克"
+  },
+  {
+    "name": "樹豆",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "樹豆約50克，變異大"
+  }
+]

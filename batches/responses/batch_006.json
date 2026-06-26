@@ -1,0 +1,212 @@
+[
+  {
+    "name": "白鳳菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約300克"
+  },
+  {
+    "name": "百香果",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "石榴",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約400克"
+  },
+  {
+    "name": "石榴進口",
+    "avgWeightKg": 0.45,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "石蓮花",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "資料少，估計"
+  },
+  {
+    "name": "破布子",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "資料不足"
+  },
+  {
+    "name": "碧玉筍",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單根約150克"
+  },
+  {
+    "name": "神秘果",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約30克"
+  },
+  {
+    "name": "秀珍菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "穀類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "太廣泛，無法估計"
+  },
+  {
+    "name": "竹筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "竹蓀",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "資料不足"
+  },
+  {
+    "name": "米豆",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "無明確單位"
+  },
+  {
+    "name": "粉紅玫瑰菇",
+    "avgWeightKg": 0.04,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約40克"
+  },
+  {
+    "name": "糯米糰",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "無明確單位"
+  },
+  {
+    "name": "紅毛丹",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約120克"
+  },
+  {
+    "name": "紅毛丹進口",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "紅豆",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "無明確單位"
+  },
+  {
+    "name": "紅豆芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約20克"
+  },
+  {
+    "name": "紅鳳菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約300克"
+  },
+  {
+    "name": "紅龍果",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "紅龍果(進口)",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "紫丁香蘑",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "結球白菜",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品較大"
+  },
+  {
+    "name": "絲瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜進口",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品較大"
+  },
+  {
+    "name": "絲��",
+    "avgWeightKg": null,
+    "weightUnit": "",
+    "confidence": "low",
+    "note": "無法辨識品項"
+  },
+  {
+    "name": "綠豆",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "無明確單位"
+  }
+]

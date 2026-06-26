@@ -1,0 +1,212 @@
+[
+  {
+    "name": "酒杯菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一般單顆約5克"
+  },
+  {
+    "name": "酪梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大約350克"
+  },
+  {
+    "name": "釋迦",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "金柑與小果柑橘",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金福菇",
+    "avgWeightKg": 0.07,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約7克"
+  },
+  {
+    "name": "金耳",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單片約15克"
+  },
+  {
+    "name": "金針花",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約2克（估計）"
+  },
+  {
+    "name": "金針花進口",
+    "avgWeightKg": 0.025,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口一把約2.5克（估計）"
+  },
+  {
+    "name": "金針菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約5克"
+  },
+  {
+    "name": "錫蘭橄欖",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約1克"
+  },
+  {
+    "name": "長山核桃",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約12克"
+  },
+  {
+    "name": "闊苞菊",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約200克"
+  },
+  {
+    "name": "闊葉大豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克（估計）"
+  },
+  {
+    "name": "隼人瓜",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約500克"
+  },
+  {
+    "name": "雜糧類",
+    "avgWeightKg": null,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "太多種類，無法估計"
+  },
+  {
+    "name": "雞肉絲菇",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約8克"
+  },
+  {
+    "name": "雞腿菇",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "雪蓮薯",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "雲芝",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約15克"
+  },
+  {
+    "name": "靈芝",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約5克（估計）"
+  },
+  {
+    "name": "青油菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約300克"
+  },
+  {
+    "name": "青花菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約250克"
+  },
+  {
+    "name": "青花菜芽菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約200克"
+  },
+  {
+    "name": "青菘菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約200克"
+  },
+  {
+    "name": "韭菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭蔥",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約150克"
+  },
+  {
+    "name": "食用大黃",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "食用百合",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "食用薊",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約250克"
+  }
+]

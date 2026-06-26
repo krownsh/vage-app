@@ -1,0 +1,212 @@
+[
+  {
+    "name": "綠豆芽",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "綠豆芽通常成束出售，約50-70克/束"
+  },
+  {
+    "name": "羅勒",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "羅勒通常成小束出售，約20-30克/束"
+  },
+  {
+    "name": "羅望子",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "羅望子單顆重量變異大，估計約150克"
+  },
+  {
+    "name": "羽衣甘藍",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "羽衣甘藍一顆約400克"
+  },
+  {
+    "name": "翼豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "翼豆單顆約100克"
+  },
+  {
+    "name": "胡桃",
+    "avgWeightKg": 0.07,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡桃單顆約70克"
+  },
+  {
+    "name": "胡榛子",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "胡榛子單顆約30克"
+  },
+  {
+    "name": "胡瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口胡蘿蔔可能稍大，約250克"
+  },
+  {
+    "name": "腰果",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "腰果單顆約10克"
+  },
+  {
+    "name": "臺灣藜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "臺灣藜通常成小束出售，估計約50克/束"
+  },
+  {
+    "name": "舞菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "舞菇單顆約150克"
+  },
+  {
+    "name": "芋",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋進口",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口芋可能稍大，約400克"
+  },
+  {
+    "name": "芝麻菜",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "芝麻菜通常成小束出售，約30克/束"
+  },
+  {
+    "name": "芥菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥藍",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥藍一顆約250克"
+  },
+  {
+    "name": "芥藍芽菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "芥藍芽菜通常成束出售，約50克/束"
+  },
+  {
+    "name": "芥藍進口",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口芥藍可能稍大，約300克"
+  },
+  {
+    "name": "芫荽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "芫荽通常成小束出售，約20克/束"
+  },
+  {
+    "name": "芫荽進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口芫荽估計約30克/束"
+  },
+  {
+    "name": "芭蕉",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芭蕉一顆約150克"
+  },
+  {
+    "name": "花椰菜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜進口",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口花椰菜可能稍大，約500克"
+  },
+  {
+    "name": "花菜類",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "花菜類一顆約300克，變異大"
+  },
+  {
+    "name": "芹菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜進口",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口芹菜可能稍大，約150克"
+  },
+  {
+    "name": "芽菜類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "芽菜類通常成束出售，估計約50克/束"
+  },
+  {
+    "name": "苜蓿芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "苜蓿芽通常成小束出售，約20克/束"
+  }
+]

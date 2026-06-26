@@ -1,40 +1,48 @@
-import { useState, useEffect } from 'react';
-import { MARKET_ORDER } from '../../services/api';
+import { useState, useEffect, useRef } from 'react';
 import { splitMarketName } from '../../utils/cropIndex';
 import { getCropWeight } from '../../utils/cropWeights';
-import { getSeasonStatus } from '../../utils/cropSeasons';
+import { getSeasonStatus, getCropSeason } from '../../utils/cropSeasons';
 import CropIcon from '../CropIcon/CropIcon';
 import TrendChart from '../TrendChart/TrendChart';
 
-const UNITS = ['斤', '包', 'kg', '磅', '盎司'];
+const MONTHS = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
 
-const CONV = {
-  '斤': (v) => v * 0.5,
-  '包': (v) => v * 0.45,
-  'kg': (v) => v,
-  '磅': (v) => v * 0.453592,
-  '盎司': (v) => v * 0.0283495,
+// 實際 API key → 顯示名稱
+const MARKET_KEY = {
+  '台北': '台北二',
+  '台中': '台中市',
+  '高雄': '高雄市',
 };
+const PREFERRED_DISPLAY = ['台北', '台中', '高雄'];
 
-export default function DetailModal({ crop, rawData, onClose }) {
-  const [unit, setUnit] = useState('斤');
-  const [inputVal, setInputVal] = useState('');
-  const [result, setResult] = useState(null);
+export default function DetailModal({ crop, rawData, onClose, favorites, onToggleFavorite }) {
   const [weightInfo, setWeightInfo] = useState(null);
   const [seasonStatus, setSeasonStatus] = useState(null);
+  const [seasonData, setSeasonData] = useState(null);
+  const [isAtTop, setIsAtTop] = useState(true);
+  const sheetRef = useRef(null);
+  const touchStartY = useRef(0);
+  const translateY = useRef(0);
 
   const avg = crop.avgPrice;
   const mainName = crop.mainName;
 
-  // 載入單顆重量 + 產季資料（LLM 補完結果）
+  // 鎖住背景滾動
+  useEffect(() => {
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = prev; };
+  }, []);
+
   useEffect(() => {
     if (mainName) {
       getCropWeight(mainName).then(setWeightInfo);
       getSeasonStatus(mainName).then(setSeasonStatus);
+      getCropSeason(mainName).then(setSeasonData);
     }
   }, [mainName]);
 
-  // 30 天趨勢：以 mainName 彙整同主品項的所有變體
+  // 30 天趨勢
   const trendMap = {};
   for (const r of rawData) {
     if (splitMarketName(r.作物名稱 || '').main !== mainName) continue;
@@ -49,44 +57,76 @@ export default function DetailModal({ crop, rawData, onClose }) {
     avg: trendMap[d].reduce((a, b) => a + b, 0) / trendMap[d].length,
   }));
 
-  function handleInput(val) {
-    setInputVal(val);
-    if (!val) {
-      setResult(null);
-      return;
-    }
-    const num = parseFloat(val);
-    if (isNaN(num)) return;
-    const pricePerKg = CONV[unit](num);
-    const diff = pricePerKg - avg;
-    const hint =
-      diff < -avg * 0.2
-        ? '比批發價還低，建議多買'
-        : diff > avg * 0.3
-        ? '高於三市場加權均價不少，留意'
-        : '在合理範圍內';
-    setResult({ hint, diff });
+  // 監控是否已滾到最頂
+  function handleScroll(e) {
+    setIsAtTop(e.target.scrollTop === 0);
   }
 
-  // 各市場彙總（跨變體平均）
-  const allMarkets = MARKET_ORDER
-    .map((name) => ({ name, ...(crop.markets?.[name] || { avg: null }) }))
-    .filter((m) => m.avg != null)
-    .sort((a, b) => a.avg - b.avg);
+  // 下滑關閉（僅在 sheet 滾到頂時啟動）
+  function handleTouchStart(e) {
+    if (!isAtTop) return;
+    touchStartY.current = e.touches[0].clientY;
+    translateY.current = 0;
+  }
 
-  // 變體明細表
+  function handleTouchMove(e) {
+    if (!isAtTop) return;
+    const delta = e.touches[0].clientY - touchStartY.current;
+    if (delta > 0 && sheetRef.current) {
+      translateY.current = delta;
+      sheetRef.current.style.transform = `translateX(-50%) translateY(${delta}px)`;
+      sheetRef.current.style.transition = 'none';
+    }
+  }
+
+  function handleTouchEnd() {
+    if (!isAtTop) return;
+    if (translateY.current > 120) {
+      onClose();
+    } else if (sheetRef.current) {
+      sheetRef.current.style.transform = 'translateX(-50%) translateY(0)';
+      sheetRef.current.style.transition = 'transform 0.25s ease-out';
+      translateY.current = 0;
+    }
+  }
+
+  // 各市場行情（只留北/中/南）
+  const preferredMarkets = PREFERRED_DISPLAY.map((display) => ({
+    display,
+    ...(crop.markets?.[MARKET_KEY[display]] || { avg: null }),
+  }));
+
+  // 品種明細表
   const variantRows = (crop.variants || []).map((variantName) => {
-    const markets = crop.variantMarkets?.[variantName] || {};
+    const vm = crop.variantMarkets?.[variantName] || {};
     return {
       name: variantName,
-      markets: MARKET_ORDER.map((m) => ({ name: m, ...(markets[m] || { avg: null }) })),
+      台北: vm[MARKET_KEY['台北']]?.avg ?? null,
+      台中: vm[MARKET_KEY['台中']]?.avg ?? null,
+      高雄: vm[MARKET_KEY['高雄']]?.avg ?? null,
     };
   });
+
+  const isFav = favorites?.includes(mainName);
+  const perUnit = weightInfo?.avgWeightKg ? (avg * weightInfo.avgWeightKg).toFixed(1) : null;
+  const unitLabel = !weightInfo ? ''
+    : weightInfo.weightUnit === 'perBundle' ? '束'
+      : weightInfo.weightUnit === 'perPiece' ? '顆'
+        : 'kg';
 
   return (
     <>
       <div className="modal-overlay" onClick={onClose} />
-      <div className="detail-modal" role="dialog" aria-modal="true">
+      <div
+        className="detail-modal"
+        ref={sheetRef}
+        role="dialog"
+        aria-modal="true"
+        onScroll={handleScroll}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+      >
         <div className="sheet-handle" />
 
         <button className="sheet-close" onClick={onClose} aria-label="關閉">
@@ -97,8 +137,8 @@ export default function DetailModal({ crop, rawData, onClose }) {
         </button>
 
         <div className="sheet-header">
-          <h3 className="sheet-title">{mainName}</h3>
-          <div className="sheet-tags">
+          <div className="detail-title-row">
+            <h3 className="sheet-title">{mainName}</h3>
             {crop.plv2_name && (
               <span className="plv2-tag" data-cat={crop.plv2 || ''}>
                 {crop.plv2_name}
@@ -109,128 +149,101 @@ export default function DetailModal({ crop, rawData, onClose }) {
                 {seasonStatus === 'peak'
                   ? '當季盛產'
                   : seasonStatus === 'in-season'
-                  ? '當季'
-                  : '非當季'}
+                    ? '當季'
+                    : '非當季'}
               </span>
             )}
+            <button
+              className={`icon-btn fav-btn ${isFav ? 'active' : ''}`}
+              onClick={() => onToggleFavorite(mainName)}
+              aria-label={isFav ? '取消收藏' : '收藏'}
+              aria-pressed={isFav}
+            >
+              <svg viewBox="0 0 24 24" fill={isFav ? 'currentColor' : 'none'} stroke="currentColor" strokeLinejoin="round">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+              </svg>
+            </button>
           </div>
+
+          {/* 產季月份 */}
+          {seasonData?.seasonMonths?.length > 0 && (
+            <div className="season-months">
+              {seasonData.seasonMonths.map((m) => {
+                const isPeak = seasonData.peakMonths?.includes(m);
+                return (
+                  <span
+                    key={m}
+                    className={`season-month ${isPeak ? 'peak' : 'in'}`}
+                  >
+                    {MONTHS[m - 1]}
+                  </span>
+                );
+              })}
+            </div>
+          )}
         </div>
 
-        {/* 三市場加權均價 Summary */}
+        {/* 均價 Summary */}
         <div className="summary-card">
           <div className="summary-icon">
             <CropIcon name={mainName} size={64} charSize={26} />
           </div>
           <div className="summary-body">
-            <span className="summary-label">三市場加權均價</span>
+            <span className="summary-label">北中南均價</span>
             <div className="summary-price">
               <span className="summary-price-num">${avg}</span>
               <span className="summary-price-unit">元/kg</span>
             </div>
           </div>
-        </div>
-
-        {/* 各市場行情（跨變體平均） */}
-        <h4 className="section-title">市場行情（元/公斤）</h4>
-        <div className="market-table">
-          {allMarkets.length === 0 ? (
-            <div className="market-row">
-              <span className="market-name">無市場資料</span>
+          {weightInfo?.avgWeightKg && (
+            <div className="summary-per-unit">
+              <span className="summary-per-unit-wt">
+                約{Math.round(weightInfo.avgWeightKg * 1000)}克
+                {weightInfo.confidence === 'low' && <span className="wt-low">（參考）</span>}
+              </span>
+              <span className="summary-per-unit-price">${perUnit}{unitLabel}</span>
             </div>
-          ) : (
-            allMarkets.map((m) => (
-              <div className="market-row" key={m.name}>
-                <span className="market-name">{m.name}</span>
-                <span className="market-price">${m.avg}</span>
-                <span className="market-unit">/kg</span>
-              </div>
-            ))
           )}
         </div>
 
-        {/* 變體明細表（細品項） */}
+        {/* 市場行情（北/中/南） */}
+        <h4 className="section-title">市場行情</h4>
+        <div className="market-table">
+          {preferredMarkets.map((m) => (
+            <div className="market-row" key={m.display}>
+              <span className="market-name">{m.display}</span>
+              <span className="market-price">${m.avg ?? '—'}</span>
+              <span className="market-unit">/kg</span>
+            </div>
+          ))}
+        </div>
+
+        {/* 品種明細表 */}
         {variantRows.length > 1 && (
           <>
-            <h4 className="section-title">變體明細（{variantRows.length} 種）</h4>
+            <h4 className="section-title">品種明細（{variantRows.length} 種）</h4>
             <div className="variant-table">
               {variantRows.map((v) => (
                 <div className="variant-row" key={v.name}>
                   <span className="variant-name">{v.name}</span>
-                  <div className="variant-prices">
-                    {v.markets.map((m) => (
-                      <span
-                        key={m.name}
-                        className={`variant-price ${m.avg == null ? 'nodata' : ''}`}
-                      >
-                        {m.name}:{' '}
-                        <strong>{m.avg != null ? `$${m.avg}` : '—'}</strong>
-                      </span>
-                    ))}
-                  </div>
+                  <span className="variant-prices-compact">
+                    {['台北', '台中', '高雄'].map((mkt) => {
+                      const short = mkt === '台北' ? '北' : mkt === '台中' ? '中' : '南';
+                      const val = v[mkt];
+                      return (
+                        <span key={mkt} className={`compact-price ${val == null ? 'nodata' : ''}`}>
+                          {short}：{val != null ? `$${val}` : '—'}
+                        </span>
+                      );
+                    })}
+                  </span>
                 </div>
               ))}
             </div>
           </>
         )}
 
-        {/* 單顆重量提示（LLM 預估，沒資料時隱藏） */}
-        {weightInfo?.avgWeightKg && (
-          <div className="weight-hint">
-            <span>
-              單
-              {weightInfo.weightUnit === 'perBundle'
-                ? '束'
-                : weightInfo.weightUnit === 'perPiece'
-                ? '顆'
-                : '公斤'}
-              約
-            </span>
-            <strong>{Math.round(weightInfo.avgWeightKg * 1000)} 克</strong>
-            <span>≈</span>
-            <strong>${(avg * weightInfo.avgWeightKg).toFixed(1)} 元</strong>
-            {weightInfo.confidence === 'low' && (
-              <span className="weight-confidence low">（參考值）</span>
-            )}
-          </div>
-        )}
-
-        {/* 我看到的價格 */}
-        <h4 className="section-title">我看到的價格</h4>
-        <div className="price-input-row">
-          <input
-            type="number"
-            inputMode="decimal"
-            placeholder="輸入價格"
-            value={inputVal}
-            onInput={(e) => handleInput(e.target.value)}
-          />
-          <span className="price-input-unit">元/{unit}</span>
-        </div>
-        <div className="unit-toggle">
-          {UNITS.map((u) => (
-            <button
-              key={u}
-              className={`unit-toggle-btn ${unit === u ? 'active' : ''}`}
-              onClick={() => {
-                setUnit(u);
-                handleInput(inputVal);
-              }}
-            >
-              {u}
-            </button>
-          ))}
-        </div>
-        {result && (
-          <div className="your-price-result">
-            <p className="result-hint">{result.hint}</p>
-            <p className="result-diff">
-              差 {result.diff > 0 ? '+' : ''}
-              {result.diff.toFixed(1)} 元/kg
-            </p>
-          </div>
-        )}
-
-        {/* 30 天趨勢（SVG 折線圖） */}
+        {/* 30 天趨勢 */}
         {trendPoints.length > 1 && (
           <div className="trend-section">
             <h4 className="section-title">近 30 天趨勢</h4>
