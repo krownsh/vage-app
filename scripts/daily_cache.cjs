@@ -100,15 +100,24 @@ function applyFilters(records) {
   );
 }
 
-// 瘦身：移除前端用不到的欄位，cache 從 3.26 MB → 1.68 MB（省 48.5%）
-// 移除：交易量（無用）、種類代碼（已過濾）、市場代號（市場名稱已涵蓋）
+// 瘦身 + 二次過濾：移除不必要欄位 + 用市場名稱白名單再次驗證
+// 為什麼要在 slim 時也過濾：slim 後的 cache 沒有「市場代號」「種類代碼」欄位，
+// 原始 applyFilters（依賴這兩個欄位）無法在 incremental mode 對 slim 過的 cache 生效。
+// 所以 slimRecords 必須自帶白名單邏輯，否則舊資料的髒資料永遠清不掉。
+const ALLOWED_MARKET_NAMES = new Set(['台北二', '台中市', '高雄市']);
 const KEEP_FIELDS = ['交易日期', '作物代號', '作物名稱', '市場名稱', '上價', '中價', '下價', '平均價'];
 function slimRecords(records) {
-  return records.map((r) => {
-    const out = {};
-    for (const k of KEEP_FIELDS) out[k] = r[k];
-    return out;
-  });
+  return records
+    .filter((r) =>
+      r.市場名稱 &&
+      ALLOWED_MARKET_NAMES.has(r.市場名稱) &&
+      !r.市場名稱.includes('�')  // 排除編碼損壞
+    )
+    .map((r) => {
+      const out = {};
+      for (const k of KEEP_FIELDS) out[k] = r[k];
+      return out;
+    });
 }
 
 // 以「日期|作物|市場名稱」三元組去重（slim 後市場代號已移除，改用市場名稱）
@@ -174,9 +183,12 @@ async function incrementalUpdate() {
   const newFiltered = applyFilters(todayData);
   console.log(`今日過濾後筆數: ${newFiltered.length}`);
 
-  const combined = dedupeByKey([...cache.data, ...newFiltered]);
-  console.log(`合併去重後筆數: ${combined.length}`);
-  const slimmed = slimRecords(combined);
+  const combined = [...cache.data, ...newFiltered];
+  const deduped = dedupeByKey(combined);
+  console.log(`合併去重後筆數: ${deduped.length}`);
+  // slimRecords 自帶白名單過濾，會清掉舊資料裡的髒市場名稱
+  const slimmed = slimRecords(deduped);
+  console.log(`slim 後筆數: ${slimmed.length}（已含髒資料過濾）`);
   const trimmed = trimToMaxDays(slimmed, MAX_DAYS);
   console.log(`trim 到 ${MAX_DAYS} 天後筆數: ${trimmed.length}`);
 
