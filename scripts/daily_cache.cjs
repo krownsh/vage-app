@@ -94,7 +94,9 @@ function applyFilters(records) {
   return records.filter((r) =>
     ALLOWED_MARKETS.includes(r.市場代號) &&
     ALLOWED_CATEGORY_CODES.has(r.種類代碼) &&
-    !EXCLUDED_CATEGORY_CODES.has(r.種類代碼)
+    !EXCLUDED_CATEGORY_CODES.has(r.種類代碼) &&
+    r.市場名稱 &&
+    !r.市場名稱.includes('�')  // 排除編碼損壞（UTF-8 取代字元）
   );
 }
 
@@ -150,6 +152,8 @@ async function buildInitial() {
   console.log(`原始筆數: ${all.length}`);
   const filtered = applyFilters(all);
   console.log(`過濾後筆數: ${filtered.length}`);
+  const badName = all.filter(r => !r.市場名稱 || r.市場名稱.includes('�'));
+  console.log(`髒市場名稱筆數: ${badName.length}`);
   const deduped = dedupeByKey(filtered);
   console.log(`去重後筆數: ${deduped.length}`);
   const slimmed = slimRecords(deduped);

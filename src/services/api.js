@@ -57,11 +57,13 @@ async function fetchSegment(start, end, attempt = 0) {
   }
 }
 
-// 套用過濾規則（市場 + 種類代碼）
+// 套用過濾規則（市場 + 種類代碼 + 市場名稱健全性）
 function applyFilters(records) {
   return records.filter((r) =>
     ALLOWED_MARKET_IDS.includes(r.市場代號) &&
-    ALLOWED_CATEGORY_CODES.has(r.種類代碼)
+    ALLOWED_CATEGORY_CODES.has(r.種類代碼) &&
+    r.市場名稱 &&
+    !r.市場名稱.includes('�')
   );
 }
 
