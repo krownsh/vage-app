@@ -22,8 +22,18 @@ graph TD
     DC2[incrementalUpdate 後續: 抓 1 天 + trim]
   end
 
+  subgraph LLM[LLM 補完層（NVIDIA NIM）]
+    E1[batches/<br/>14 batch × 30 項]
+    E2[estimate_crop_weights.cjs<br/>跑 nemotron-super-49b]
+    E3[estimate_crop_seasons.cjs<br/>同架構補產季月份]
+    E4[crop_weights.json<br/>public/data/]
+    E5[crop_seasons.json<br/>public/data/]
+  end
+
   subgraph Fetch[前端抓取層 src/services/api.js]
     C1[fetchPrices 優先讀 prices_cache.json<br/>fallback: fetchPricesLive 即時抓 4 天]
+    CW[loadCropWeights<br/>讀 crop_weights.json]
+    CS[loadCropSeasons<br/>讀 crop_seasons.json]
   end
 
   subgraph Match[比對層 src/utils/cropIndex.js]
@@ -37,9 +47,19 @@ graph TD
   end
 
   subgraph UI[前端 React]
-    F1[App.jsx]
-    F2[DetailModal<br/>30 天趨勢<br/>mainName 模糊比對<br/>跨變體彙整]
+    F1[App.jsx<br/>cache-meta + 狀態管理]
+    F2[DetailModal<br/>Bottom Sheet<br/>summary card / 市場表 / 變體表 / 輸入區 / 趨勢]
     F3[favorites<br/>localStorage<br/>vege_favorites]
+  end
+
+  subgraph UIComp[UI 元件層 src/components]
+    UC1[Header<br/>大標 + 農業 badge<br/>+ 搜尋]
+    UC2[CategoryTabs<br/>白圓容器 + 黃 chip]
+    UC3[ProductCard<br/>圖示 + 名 + 分類 + 大價 + fav + share]
+    UC4[FAB<br/>黃圓黑邊加號]
+    UC5[TrendChart<br/>SVG 折線圖<br/>高點黃圓 + 平均虛線]
+    UC6[CheckerModal<br/>划算計算機]
+    UC7[CropIcon<br/>統一圖片佔位<br/>奶油底圓 + 中文首字]
   end
 
   A2 -->|每日/即時| C1
@@ -50,11 +70,22 @@ graph TD
   DC1 --> B2
   DC2 --> B2
   B2 --> C1
+  E1 --> E2 --> E4
+  E1 --> E3 --> E5
+  E4 --> CW
+  E5 --> CS
   D2 --> E1
   E1 --> E2
-  E1 --> F2
-  E2 --> F1
+  E1 --> F1
+  F1 --> UC1
+  F1 --> UC2
+  F1 --> UC3
+  F1 --> UC4
+  F1 --> UC2
   F3 --> E2
+  UC3 --> UC7
+  F2 --> UC5
+  F2 --> UC7
 ```
 
 ## PLV1 分類保留策略
@@ -85,10 +116,16 @@ graph TD
 - [x] MARKET_ORDER 統一單一真源
 - [x] 後端每日快取 (scripts/daily_cache.cjs + prices_cache.json)
 - [x] localStorage 鍵統一為 vege_favorites
-- [ ] 後端每日快取 (api.md §4)
+- [x] NVIDIA NIM 重量預估管線（split/test/run/merge）
+- [x] NVIDIA NIM 季節預估管線（同架構）
+- [x] 30 天趨勢折線圖 (TrendChart.jsx, SVG)
+- [x] UI/UX 全面對齊 [docs/uiux.md](uiux.md)（晚間追加 #12）
+- [x] CropIcon 統一圖片佔位元件
+- [x] Bottom Sheet 結構（drag handle + 關閉鈕 + summary card）
+- [ ] 各作物手繪插圖（主人提供）
+- [ ] 右上蔬菜籃插圖（主人提供）
+- [ ] 地區 chips 篩選功能（依主人決定暫不做）
 - [ ] MARKET_ALIAS 持續補充
-- [ ] 30 天價格曲線 (DetailModal)
-- [ ] 其他類別裁決 (006/007/010)
 
 ## 關鍵檔案索引
 
@@ -98,5 +135,8 @@ graph TD
 - [scripts/update_catalog.cjs](../scripts/update_catalog.cjs) — Catalog 重抓
 - [scripts/test_match.cjs](../scripts/test_match.cjs) — 比對驗證
 - [public/data/crop_catalog.json](../public/data/crop_catalog.json) — 靜態目錄
+- [src/components/CropIcon/CropIcon.jsx](../src/components/CropIcon/CropIcon.jsx) — 圖片佔位（主人給圖只改這個）
+- [src/index.css](../src/index.css) — Design tokens + 元件樣式
+- [docs/uiux.md](../docs/uiux.md) — UI/UX 規格基準
 - [main.md](../main.md) — 高階架構圖 (舊版)
 - [api.md](../api.md) — API 規格

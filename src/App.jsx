@@ -72,6 +72,10 @@ export default function App() {
         )}
         {cacheMeta?.lastUpdated && !loading && (
           <div className="cache-meta">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="9" />
+              <polyline points="12 7 12 12 15.5 14" />
+            </svg>
             <span>行情更新於 {cacheMeta.lastUpdated}</span>
             {cacheMeta.staleDays > 1 && (
               <span className="stale-warn">（已是 {cacheMeta.staleDays} 天前資料，建議連網更新）</span>
@@ -86,7 +90,7 @@ export default function App() {
         )}
         {!loading && !error && filtered.map((crop) => (
           <ProductCard
-            key={crop.cropName}
+            key={crop.mainName}
             crop={crop}
             favorites={favorites}
             onToggleFavorite={toggleFavorite}
