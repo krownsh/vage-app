@@ -2,10 +2,18 @@ name: Daily Cache Update
 
 # 每日台北 18:00（UTC 10:00）跑一次，收盤後更新當日行情
 # 也可用 Actions 頁面手動觸發測試
+# push 觸發：當 daily_cache.cjs 或 workflow 本身變動時自動重跑
 on:
   schedule:
     - cron: '0 10 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/daily_cache.cjs'
+      - '.github/workflows/daily-cache.yml'
+      - 'package.json'
+      - 'package-lock.json'
 
 permissions:
   contents: write  # 讓 peaceiris/actions-gh-pages 能 push 到 gh-pages

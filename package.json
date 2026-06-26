@@ -7,7 +7,20 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "node scripts/test_aggregation.mjs",
+    "catalog:update": "node scripts/update_catalog.cjs",
+    "cache:daily": "node scripts/daily_cache.cjs",
+    "weights:split": "node scripts/estimate_crop_weights.cjs split",
+    "weights:test": "node scripts/estimate_crop_weights.cjs test",
+    "weights:run": "node scripts/estimate_crop_weights.cjs run",
+    "weights:merge": "node scripts/estimate_crop_weights.cjs merge",
+    "weights:validate": "node scripts/estimate_crop_weights.cjs validate",
+    "weights:status": "node scripts/estimate_crop_weights.cjs status",
+    "seasons:split": "node scripts/estimate_crop_seasons.cjs split",
+    "seasons:run": "node scripts/estimate_crop_seasons.cjs run",
+    "seasons:merge": "node scripts/estimate_crop_seasons.cjs merge",
+    "seasons:validate": "node scripts/estimate_crop_seasons.cjs validate"
   },
   "dependencies": {
     "@capacitor/android": "^8.4.1",

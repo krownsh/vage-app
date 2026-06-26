@@ -98,6 +98,87 @@ curl -I https://krownsh.github.io/vage-app/data/prices_cache.json
 
 ---
 
+## LLM 補完（NVIDIA NIM）
+
+本機用 NVIDIA NIM Hosted API 補完 catalog 衍生資料（單顆重量、產季月份）。
+
+### 環境設定
+
+`.env` 檔放在專案根目錄（已在 `.gitignore`）：
+
+```env
+NVIDIA_API_KEY_1=nvapi-xxxxx
+NVIDIA_API_KEY_2=nvapi-xxxxx
+... (最多 10 把)
+```
+
+每把 key 限 40 RPM，10 把可達 400 RPM。詳見全域規則 `AGENT_GLOBAL_DIR/api/nvidia-nim.md`。
+
+### 重量預估（單顆/單位重量）
+
+```bash
+# 1. 切 batch
+node scripts/estimate_crop_weights.cjs split
+
+# 2. 跑 LLM（背景，約 15 分鐘跑完 14 batch）
+node scripts/estimate_crop_weights.cjs run
+
+# 3. 合併 → public/data/crop_weights.json
+node scripts/estimate_crop_weights.cjs merge
+```
+
+預設模型：`nvidia/llama-3.3-nemotron-super-49b-v1`
+
+### 季節預估（產季月份）
+
+```bash
+node scripts/estimate_crop_seasons.cjs split
+node scripts/estimate_crop_seasons.cjs run
+node scripts/estimate_crop_seasons.cjs merge
+```
+
+產出 `public/data/crop_seasons.json`。
+
+### Debug 工具
+
+```bash
+npm run weights:test        # 跑單一 batch 驗證（debug 用）
+npm run weights:status      # 看進度
+npm run weights:validate    # 驗證合併結果（信心度分佈、重量分佈、缺漏）
+npm run weights:gap         # 列出 catalog 缺漏的 mainName 與變體
+npm run seasons:validate    # 同樣驗證季節資料
+```
+
+### 完整流程（一次跑完）
+
+```bash
+# 重量
+npm run weights:split
+npm run weights:run        # 約 10-15 分鐘
+npm run weights:merge
+npm run weights:validate
+
+# 季節（接力跑，14 batch × ~90 秒 ≈ 20 分鐘）
+npm run seasons:split
+npm run seasons:run
+npm run seasons:merge
+npm run seasons:validate
+```
+
+### 注意事項
+
+- **LLM 對有多變體的品項會把 `avgWeightKg` 寫成 nested object**：merge 階段會自動攤平取平均
+- **`extractJson` 處理多種 LLM 回應格式**：純 JSON、markdown code block、有說明文字包 JSON、trailing comma 自動修復
+- **背景跑 round-robin 用 10 把 key**：每把 key 40 RPM，10 把可達 400 RPM
+- **失敗的 batch 會被保留**：直接 `npm run weights:run` 會 skip 已成功的，只重試失敗
+
+### 環境變數
+
+| 變數 | 預設 | 說明 |
+|------|------|------|
+| `NVIDIA_ENV_PATH` | `d:/others/sideproject/vage-app/.env` | .env 位置 |
+| `NVIDIA_MODEL` | `nvidia/llama-3.3-nemotron-super-49b-v1` | 模型 id |
+
 ## Android APK
 
 ```bash
