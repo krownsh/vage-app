@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import { MARKET_IDS } from '../../services/api';
+import { MARKET_IDS, MARKET_ORDER } from '../../services/api';
 import { getFairness } from '../../utils/dateUtils';
 import { isPeakSeason } from '../../utils/aggregation';
+import { splitMarketName } from '../../utils/cropIndex';
 
-const MARKET_ORDER = ['台北二', '台中市', '高雄市'];
 const UNITS = ['斤', '包', 'kg', '磅', '盎司'];
 
 const CONV = {
@@ -20,17 +20,18 @@ export default function DetailModal({ crop, rawData, onClose }) {
   const [result, setResult] = useState(null);
 
   const avg = crop.avgPrice;
+  const mainName = crop.mainName || splitMarketName(crop.cropName).main;
 
-  // 7-day trend
+  // 30 天趨勢：以 mainName 彙整同主品項的所有變體（如 甘藍-初秋 / 甘藍-改良尖 一起算）
   const trendMap = {};
   for (const r of rawData) {
-    if (r.作物名稱 !== crop.cropName) continue;
+    if (splitMarketName(r.作物名稱).main !== mainName) continue;
     const d = r.交易日期;
     if (!trendMap[d]) trendMap[d] = [];
     const p = parseFloat(r.平均價);
     if (!isNaN(p) && p > 0) trendMap[d].push(p);
   }
-  const trendDates = Object.keys(trendMap).sort().slice(-7);
+  const trendDates = Object.keys(trendMap).sort().slice(-30);
   const trendPoints = trendDates.map(d => ({
     date: d,
     avg: trendMap[d].reduce((a, b) => a + b, 0) / trendMap[d].length,
@@ -146,10 +147,10 @@ export default function DetailModal({ crop, rawData, onClose }) {
             )}
           </div>
 
-          {/* 7天趨勢 */}
+          {/* 30天趨勢 */}
           {trendPoints.length > 1 && (
             <div className="trend-section">
-              <h4 className="section-title">近七天趨勢</h4>
+              <h4 className="section-title">近 30 天趨勢</h4>
               <div className="trend-bars">
                 {trendPoints.map(({ date, avg: avgVal }) => (
                   <div key={date} className="trend-bar-wrap">

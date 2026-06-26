@@ -1,10 +1,8 @@
 import { useState } from 'react';
-import { MARKET_IDS } from '../../services/api';
+import { MARKET_ORDER } from '../../services/api';
 import { getFairBadgeClass } from '../../utils/dateUtils';
 import { isPeakSeason } from '../../utils/aggregation';
 import { shareCropInfo } from '../../utils/shareUtils';
-
-const MARKET_ORDER = ['台北二', '台中市', '高雄市'];
 
 export default function ProductCard({ crop, favorites, onToggleFavorite, onOpenDetail }) {
   const [inputVal, setInputVal] = useState('');

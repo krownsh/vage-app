@@ -1,0 +1,58 @@
+name: Daily Cache Update
+
+# 每日台北 18:00（UTC 10:00）跑一次，收盤後更新當日行情
+# 也可用 Actions 頁面手動觸發測試
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write  # 讓 peaceiris/actions-gh-pages 能 push 到 gh-pages
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: Run daily_cache.cjs (build / refresh prices_cache.json)
+        run: node scripts/daily_cache.cjs
+
+      - name: Verify cache file size (sanity check)
+        run: |
+          SIZE=$(stat -c%s public/data/prices_cache.json)
+          echo "prices_cache.json size: ${SIZE} bytes"
+          if [ "$SIZE" -lt 100000 ]; then
+            echo "ERROR: cache file too small, likely fetch failed"
+            exit 1
+          fi
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public/data
+          destination_dir: data
+          keep_files: false
+          # clean: true  # 清掉 gh-pages 上的舊檔（cache 之外不應有其他東西）
+
+      - name: Print summary
+        if: always()
+        run: |
+          echo "::notice::Daily cache update finished at $(date -u)"
+          if [ -f public/data/prices_cache.json ]; then
+            echo "::notice::Cache file: $(stat -c%s public/data/prices_cache.json) bytes"
+          fi

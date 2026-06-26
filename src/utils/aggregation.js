@@ -1,5 +1,4 @@
-import { buildCropIndex, lookupCrop } from './cropIndex.js';
-import { CATEGORY_LABELS } from '../services/api.js';
+import { buildCropIndex, lookupCrop, splitMarketName } from './cropIndex.js';
 
 // 產季地圖（月份 1-12）
 const SEASON_MAP = {
@@ -45,7 +44,7 @@ export function isPeakSeason(cropName) {
 
 // 將 raw API records 聚合成作物清單
 export function aggregatePrices(records, catalog = []) {
-  const { index, prefixIndex } = buildCropIndex(catalog);
+  const index = buildCropIndex(catalog);
 
   const map = {};
 
@@ -73,7 +72,7 @@ export function aggregatePrices(records, catalog = []) {
     const avg = v.total / v.cnt;
 
     // 用 fuzzy lookup 找 PLV2
-    const info = lookupCrop(cropName, index, prefixIndex);
+    const info = lookupCrop(cropName, index);
 
     if (!cropMap[cropName]) {
       cropMap[cropName] = {
@@ -104,6 +103,8 @@ export function aggregatePrices(records, catalog = []) {
     crop.avgPrice = crop.cnt > 0
       ? parseFloat((crop.totalPrice / crop.cnt).toFixed(1))
       : 0;
+    // 提供 mainName（去掉變體後的主品項），供 DetailModal 跨變體彙整趨勢用
+    crop.mainName = splitMarketName(crop.cropName).main;
   }
 
   return Object.values(cropMap);
@@ -116,8 +117,8 @@ export function filterCrops(crops, { category, query, favorites = [] }) {
   if (category === 'fav') {
     result = result.filter(c => favorites.includes(c.cropName));
   } else if (category === 'fruit') {
-    // 水果類：PLV1 = 001（果樹類）
-    result = result.filter(c => c.plv1 === '001');
+    // 水果類：PLV1 = 003（果樹類）
+    result = result.filter(c => c.plv1 === '003');
   } else if (category !== 'all') {
     // category key 就是 plv2（如 '01', '07'）
     result = result.filter(c => c.plv2 === category);
