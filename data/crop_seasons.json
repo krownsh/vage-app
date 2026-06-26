@@ -1,0 +1,5651 @@
+[
+  {
+    "name": "人心果",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "人蔘菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "刀豆",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "千寶菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "大豆",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋交替期產"
+  },
+  {
+    "name": "大麥",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "high",
+    "note": "春季主產"
+  },
+  {
+    "name": "大蒜",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "high",
+    "note": "春季盛產"
+  },
+  {
+    "name": "大蒜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "小米",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋交替期產"
+  },
+  {
+    "name": "小米進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "小松菜",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "小果番茄",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產，但春秋旺季"
+  },
+  {
+    "name": "小波羅蜜",
+    "seasonMonths": [
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      6
+    ],
+    "confidence": "medium",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "小海帶",
+    "seasonMonths": [
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      2
+    ],
+    "confidence": "medium",
+    "note": "冬季盛產"
+  },
+  {
+    "name": "小麥",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "high",
+    "note": "春季主產"
+  },
+  {
+    "name": "小麥進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "山竹",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "山竹進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "山茼蒿",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春季與秋季產"
+  },
+  {
+    "name": "山菠菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "山葵",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "山蘇",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期產"
+  },
+  {
+    "name": "不結球白菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "中國棗",
+    "seasonMonths": [
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      9
+    ],
+    "confidence": "medium",
+    "note": "秋季盛產"
+  },
+  {
+    "name": "仁果類",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "分蔥",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "巴西蘑菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產，但春秋旺季"
+  },
+  {
+    "name": "斤耳",
+    "seasonMonths": [
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      6
+    ],
+    "confidence": "medium",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "木薯",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "木鱉果",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋交替期產"
+  },
+  {
+    "name": "毛木耳",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      6,
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "全年可產，夏季產量最高"
+  },
+  {
+    "name": "毛豆",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "high",
+    "note": "春夏交替期盛產"
+  },
+  {
+    "name": "毛豆進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "水合歡",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "medium",
+    "note": "春夏季主要產季"
+  },
+  {
+    "name": "水芹",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "水菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "水蓮",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "medium",
+    "note": "春夏季主要產季"
+  },
+  {
+    "name": "爪哇橄欖",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "low",
+    "note": "產季資料不足，可能為秋冬季"
+  },
+  {
+    "name": "牛肝菌",
+    "seasonMonths": [
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      9
+    ],
+    "confidence": "medium",
+    "note": "夏末秋初為主要產季"
+  },
+  {
+    "name": "牛蒡",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "牛蒡進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "仙人掌肉質莖",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "low",
+    "note": "產季資料不足，可能為春夏季"
+  },
+  {
+    "name": "冬瓜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏季為主要產季"
+  },
+  {
+    "name": "冬瓜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "北蟲草",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "low",
+    "note": "產季資料不足，可能為春季"
+  },
+  {
+    "name": "半天筍",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "medium",
+    "note": "春季為主要產季"
+  },
+  {
+    "name": "可可",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "low",
+    "note": "產季資料不足，可能為秋冬季"
+  },
+  {
+    "name": "玉米",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏季為主要產季"
+  },
+  {
+    "name": "玉米筍",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春季為主要產季"
+  },
+  {
+    "name": "玉米筍進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "玉米進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "瓜菜類",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏季為主要產季（涵蓋各類瓜菜）"
+  },
+  {
+    "name": "甘蔗筍",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      2,
+      3
+    ],
+    "confidence": "medium",
+    "note": "冬春季為主要產季"
+  },
+  {
+    "name": "甘藍",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季為主要產季"
+  },
+  {
+    "name": "甘藍芽菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季為主要產季"
+  },
+  {
+    "name": "甘藍進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "甘藷",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季為主要產季"
+  },
+  {
+    "name": "白木耳",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      6,
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "全年可產，夏季產量最高"
+  },
+  {
+    "name": "白玉菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季為主要產季"
+  },
+  {
+    "name": "白鳳菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季為主要產季"
+  },
+  {
+    "name": "白靈菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "全年產季，春季最旺"
+  },
+  {
+    "name": "石榴",
+    "seasonMonths": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季產季"
+  },
+  {
+    "name": "石蓮花",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期產季"
+  },
+  {
+    "name": "冰花",
+    "seasonMonths": [
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      1
+    ],
+    "confidence": "low",
+    "note": "冬季產季，資料有限"
+  },
+  {
+    "name": "印度棗",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季產季"
+  },
+  {
+    "name": "吉康菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產季"
+  },
+  {
+    "name": "百香果",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "春夏產季"
+  },
+  {
+    "name": "竹筍",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "high",
+    "note": "春季產季"
+  },
+  {
+    "name": "竹蓀",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "low",
+    "note": "夏季產季，資料有限"
+  },
+  {
+    "name": "米豆",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋交替期產季"
+  },
+  {
+    "name": "羽衣甘藍",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季產季"
+  },
+  {
+    "name": "西瓜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季產季"
+  },
+  {
+    "name": "西印度櫻桃",
+    "seasonMonths": [
+      4,
+      5
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "medium",
+    "note": "春季產季"
+  },
+  {
+    "name": "西洋菜",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季產季"
+  },
+  {
+    "name": "李",
+    "seasonMonths": [
+      6,
+      7
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季產季"
+  },
+  {
+    "name": "杏",
+    "seasonMonths": [
+      5,
+      6
+    ],
+    "peakMonths": [
+      6
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期產季"
+  },
+  {
+    "name": "杏鮑菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產季"
+  },
+  {
+    "name": "秀珍菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春秋最旺"
+  },
+  {
+    "name": "芋",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季產季"
+  },
+  {
+    "name": "豆菜類",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      5,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春夏及秋季產季"
+  },
+  {
+    "name": "豆薯",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "low",
+    "note": "夏秋產季，資料有限"
+  },
+  {
+    "name": "豆類",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      5,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春夏及秋季產季"
+  },
+  {
+    "name": "其他仁果",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "資料不足，無法提供產季"
+  },
+  {
+    "name": "其他瓜菜",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季盛產，部分品種有冬季第二產季"
+  },
+  {
+    "name": "其他豆菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      5,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春秋兩季盛產"
+  },
+  {
+    "name": "其他豆類",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "low",
+    "note": "夏季主要產季，資料不足"
+  },
+  {
+    "name": "其他果菜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季為主，部分品種秋季續產"
+  },
+  {
+    "name": "其他果菜苗",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      3,
+      4,
+      10
+    ],
+    "confidence": "low",
+    "note": "苗圃生產，資料不足"
+  },
+  {
+    "name": "其他果樹",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      5,
+      11
+    ],
+    "confidence": "medium",
+    "note": "春夏和秋冬兩季"
+  },
+  {
+    "name": "其他花菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "主要為冬季產季"
+  },
+  {
+    "name": "其他花菜苗",
+    "seasonMonths": [
+      8,
+      9,
+      10,
+      3,
+      4
+    ],
+    "peakMonths": [
+      9,
+      4
+    ],
+    "confidence": "low",
+    "note": "苗圃生產，資料不足"
+  },
+  {
+    "name": "其他芽菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      1,
+      2,
+      11
+    ],
+    "confidence": "medium",
+    "note": "冬季和早春為主"
+  },
+  {
+    "name": "其他長期蔬菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11,
+      1
+    ],
+    "confidence": "medium",
+    "note": "主要為冬季和早春"
+  },
+  {
+    "name": "其他柑橘",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬季為主要產季"
+  },
+  {
+    "name": "其他根菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11,
+      1
+    ],
+    "confidence": "medium",
+    "note": "冬季和早春為主"
+  },
+  {
+    "name": "其他堅果",
+    "seasonMonths": [
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      9,
+      10
+    ],
+    "confidence": "low",
+    "note": "秋季收穫，資料不足"
+  },
+  {
+    "name": "其他莖菜",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "peakMonths": [
+      5,
+      9
+    ],
+    "confidence": "medium",
+    "note": "春夏和秋季"
+  },
+  {
+    "name": "其他短期蔬菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6,
+      8
+    ],
+    "confidence": "medium",
+    "note": "全年有產，但夏季最旺"
+  },
+  {
+    "name": "其他菇類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "全年可產，無明顯旺季"
+  },
+  {
+    "name": "其他葉菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      1,
+      2,
+      10
+    ],
+    "confidence": "medium",
+    "note": "冬季和早春為主"
+  },
+  {
+    "name": "其他葉菜苗",
+    "seasonMonths": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "peakMonths": [
+      3,
+      9
+    ],
+    "confidence": "low",
+    "note": "苗圃生產，資料不足"
+  },
+  {
+    "name": "其他漿果",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "low",
+    "note": "夏季主要產季，資料不足"
+  },
+  {
+    "name": "其他穀類",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "low",
+    "note": "夏秋收穫，資料不足"
+  },
+  {
+    "name": "其他蔬菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      5,
+      6,
+      9
+    ],
+    "confidence": "medium",
+    "note": "全年有產，夏季和秋季旺"
+  },
+  {
+    "name": "其他蔬菜類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "全年可產，無明顯旺季"
+  },
+  {
+    "name": "其他雜糧",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "low",
+    "note": "秋季收穫，資料不足"
+  },
+  {
+    "name": "其他藷類",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "low",
+    "note": "春夏收穫，資料不足"
+  },
+  {
+    "name": "其他鱗莖",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "low",
+    "note": "春季主要產季，資料不足"
+  },
+  {
+    "name": "其它核果",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏季為主"
+  },
+  {
+    "name": "刺芹",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬季為主要產季"
+  },
+  {
+    "name": "奇異果",
+    "seasonMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      12,
+      1
+    ],
+    "confidence": "high",
+    "note": "冬季為主要產季"
+  },
+  {
+    "name": "奇異果進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，不考慮本土產季"
+  },
+  {
+    "name": "松茸",
+    "seasonMonths": [
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      9,
+      10
+    ],
+    "confidence": "low",
+    "note": "秋季收穫，資料不足"
+  },
+  {
+    "name": "枇杷",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "high",
+    "note": "主要產季為4-6月，5月產量最高"
+  },
+  {
+    "name": "枇杷進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "果菜類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      9
+    ],
+    "confidence": "medium",
+    "note": "全年有產，但春秋季最旺"
+  },
+  {
+    "name": "果樹類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      5,
+      10
+    ],
+    "confidence": "medium",
+    "note": "全年有產，春季和秋季最旺"
+  },
+  {
+    "name": "油江菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "主要產季為9-12月，10-11月產量最高"
+  },
+  {
+    "name": "油柑",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "high",
+    "note": "主要產季為10-12月，11月產量最高"
+  },
+  {
+    "name": "油菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "主要產季為9-12月，10-11月產量最高"
+  },
+  {
+    "name": "波羅門蔘",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "medium",
+    "note": "春季主要產季"
+  },
+  {
+    "name": "波羅蜜",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季，7月產量最高"
+  },
+  {
+    "name": "波羅蜜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "牧草筍",
+    "seasonMonths": [
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      3
+    ],
+    "confidence": "medium",
+    "note": "春季主要產季"
+  },
+  {
+    "name": "芝麻菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "芥菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "芥藍",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "芥藍芽菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "芥藍進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "芫荽",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春季和秋季產季"
+  },
+  {
+    "name": "芫荽進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "芭蕉",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      6,
+      12
+    ],
+    "confidence": "high",
+    "note": "全年有產，夏季和年末最旺"
+  },
+  {
+    "name": "花菜類",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "花椰菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "花椰菜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "芹菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春季和秋季產季"
+  },
+  {
+    "name": "芹菜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "芽菜類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      9
+    ],
+    "confidence": "medium",
+    "note": "全年有產，春秋季最旺"
+  },
+  {
+    "name": "金耳",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "金柑與小果柑橘",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "high",
+    "note": "主要產季為10-12月，11月產量最高"
+  },
+  {
+    "name": "金針花",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "medium",
+    "note": "春季主要產季"
+  },
+  {
+    "name": "金針花進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "金針菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春季和秋季產季"
+  },
+  {
+    "name": "金福菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      5,
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "全年產季，夏季產量最高"
+  },
+  {
+    "name": "長山核桃",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "青油菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "冬春季主要產季"
+  },
+  {
+    "name": "青花菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "冬春季主要產季，各變體產季相似"
+  },
+  {
+    "name": "青花菜芽菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "與青花菜產季相似"
+  },
+  {
+    "name": "青菘菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "春季和秋冬交替產季"
+  },
+  {
+    "name": "南瓜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏秋季主要產季，各變體產季相似"
+  },
+  {
+    "name": "南瓜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "僅列台產季，進口不計"
+  },
+  {
+    "name": "扁桃",
+    "seasonMonths": [
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      3
+    ],
+    "confidence": "high",
+    "note": "春季主要產季"
+  },
+  {
+    "name": "扁蒲",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "high",
+    "note": "春夏季主要產季，各變體產季相似"
+  },
+  {
+    "name": "枸櫞",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬季主要產季，各變體產季相似"
+  },
+  {
+    "name": "柑橘類",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      11,
+      12,
+      1
+    ],
+    "confidence": "high",
+    "note": "冬春季主要產季，涵蓋多種柑橘"
+  },
+  {
+    "name": "柚子",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季主要產季，各變體產季相似"
+  },
+  {
+    "name": "柚子進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "僅列台產季，進口不計"
+  },
+  {
+    "name": "柿",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季主要產季，各變體產季相似"
+  },
+  {
+    "name": "柿子",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "與柿產季相似"
+  },
+  {
+    "name": "柿子進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "僅列台產季，進口不計"
+  },
+  {
+    "name": "洋菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春夏和秋季產量高"
+  },
+  {
+    "name": "洋蔥",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "medium",
+    "note": "春季主要產季，部分變體產季不同"
+  },
+  {
+    "name": "珊瑚菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春夏和秋季產量高"
+  },
+  {
+    "name": "珍珠菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "冬春季主要產季"
+  },
+  {
+    "name": "紅毛丹",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "紅毛丹進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "僅列台產季，進口不計"
+  },
+  {
+    "name": "紅豆",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋交替產季"
+  },
+  {
+    "name": "紅豆芽",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      1,
+      2,
+      12
+    ],
+    "confidence": "high",
+    "note": "全年產季，冬季產量高"
+  },
+  {
+    "name": "紅鳳菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "冬春季主要產季"
+  },
+  {
+    "name": "紅龍果",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏秋季主要產季，各變體產季相似"
+  },
+  {
+    "name": "紅龍果(進口)",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "僅列台產季，進口不計"
+  },
+  {
+    "name": "胡瓜",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "high",
+    "note": "春夏季主要產季，各變體產季相似"
+  },
+  {
+    "name": "胡桃",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "胡榛子",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "胡蘿蔔",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬春季主要產季"
+  },
+  {
+    "name": "胡蘿蔔進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，不考慮本土產季"
+  },
+  {
+    "name": "苜蓿芽",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      9,
+      10
+    ],
+    "confidence": "medium",
+    "note": "全年可產，但春秋旺季"
+  },
+  {
+    "name": "苦瓜",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "苦瓜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，不考慮本土產季"
+  },
+  {
+    "name": "苦苣",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "茄子",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "韭菜",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      11,
+      12,
+      1
+    ],
+    "confidence": "high",
+    "note": "冬春季主要產季"
+  },
+  {
+    "name": "韭蔥",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "食用大黃",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "low",
+    "note": "資料有限，秋季可能產季"
+  },
+  {
+    "name": "食用百合",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "食用薊",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "low",
+    "note": "資料有限，春季可能產季"
+  },
+  {
+    "name": "食茱萸",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "low",
+    "note": "資料有限，秋冬季可能產季"
+  },
+  {
+    "name": "香瓜茄",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "香芹菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "香芹菜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，不考慮本土產季"
+  },
+  {
+    "name": "香菇",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "香蕉",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      4,
+      5,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年可產，但春夏秋旺季"
+  },
+  {
+    "name": "栗子",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "high",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "核果類",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      6,
+      7,
+      9,
+      10
+    ],
+    "confidence": "medium",
+    "note": "夏秋季主要產季（不同核果類有所不同）"
+  },
+  {
+    "name": "根菜類",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12,
+      1
+    ],
+    "confidence": "medium",
+    "note": "冬季主要產季（不同根菜類有所不同）"
+  },
+  {
+    "name": "桃",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "high",
+    "note": "春夏季主要產季"
+  },
+  {
+    "name": "桃進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，不考慮本土產季"
+  },
+  {
+    "name": "桑椹",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "海帶",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      2,
+      3
+    ],
+    "confidence": "medium",
+    "note": "春季主要產季"
+  },
+  {
+    "name": "海菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "low",
+    "note": "資料有限，春季可能產季"
+  },
+  {
+    "name": "破布子",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "low",
+    "note": "資料有限，秋季可能產季"
+  },
+  {
+    "name": "神秘果",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "low",
+    "note": "資料有限，夏季可能產季"
+  },
+  {
+    "name": "粉紅玫瑰菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "茭白筍",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "3-5 月盛產，冬季需進口"
+  },
+  {
+    "name": "茭白筍進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "茴香",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "medium",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "茶樹菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春秋兩季產量較高"
+  },
+  {
+    "name": "茼蒿",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      11,
+      12
+    ],
+    "peakMonths": [
+      1,
+      2
+    ],
+    "confidence": "high",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "草莓",
+    "seasonMonths": [
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      1
+    ],
+    "confidence": "high",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "草莓進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "草菇",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "peakMonths": [
+      5,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春夏與秋季產量較高"
+  },
+  {
+    "name": "荔枝",
+    "seasonMonths": [
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      6
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "荔枝進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "豇豆",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春秋兩季產量較高"
+  },
+  {
+    "name": "酒杯菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產量較高"
+  },
+  {
+    "name": "隼人瓜",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋交替期主要產季"
+  },
+  {
+    "name": "馬鈴薯",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      11
+    ],
+    "confidence": "medium",
+    "note": "春季與秋冬交替期產量較高"
+  },
+  {
+    "name": "馬鈴薯進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "馬齒莧",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "高粱",
+    "seasonMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      8,
+      9
+    ],
+    "confidence": "high",
+    "note": "夏秋季主要產季"
+  },
+  {
+    "name": "堅果類",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主要產季（含多種堅果）"
+  },
+  {
+    "name": "採種用蔬菜",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "種子供應不依季節"
+  },
+  {
+    "name": "晚香玉筍",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "medium",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "梅",
+    "seasonMonths": [
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      2
+    ],
+    "confidence": "high",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "梨",
+    "seasonMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      8,
+      9
+    ],
+    "confidence": "high",
+    "note": "夏秋季主要產季（不同品種略有差異）"
+  },
+  {
+    "name": "球莖甘藍",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "甜瓜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季（不同品種略有差異）"
+  },
+  {
+    "name": "甜椒",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      9,
+      10
+    ],
+    "peakMonths": [
+      5,
+      9
+    ],
+    "confidence": "high",
+    "note": "春夏與秋季產量較高（不同品種略有差異）"
+  },
+  {
+    "name": "甜椒進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "甜菜根",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主要產季"
+  },
+  {
+    "name": "甜橙",
+    "seasonMonths": [
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      12,
+      1
+    ],
+    "confidence": "high",
+    "note": "冬季主要產季（不同品種略有差異）"
+  },
+  {
+    "name": "甜橙進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "荸薺",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "medium",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "莖菜類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "全年可產，春秋季旺"
+  },
+  {
+    "name": "莧菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      5,
+      6,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "春夏季盛產，秋季次旺"
+  },
+  {
+    "name": "蛇瓜",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏季主產"
+  },
+  {
+    "name": "蛋黃果",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      7,
+      8,
+      9
+    ],
+    "confidence": "medium",
+    "note": "夏秋季主產，產季略有變動"
+  },
+  {
+    "name": "雪蓮薯",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12,
+      1
+    ],
+    "confidence": "high",
+    "note": "冬季主產"
+  },
+  {
+    "name": "麻意",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "春夏季主產，產季略有變動"
+  },
+  {
+    "name": "富貴豆",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏季主產，產季略有變動"
+  },
+  {
+    "name": "朝鮮薊",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "棗椰子",
+    "seasonMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      8,
+      9
+    ],
+    "confidence": "low",
+    "note": "產季不確定，夏秋季可能"
+  },
+  {
+    "name": "無花果",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "low",
+    "note": "產季不確定，夏季可能"
+  },
+  {
+    "name": "猴頭菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "番木瓜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "夏秋季主產"
+  },
+  {
+    "name": "番石榴",
+    "seasonMonths": [
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      8,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "夏秋季主產"
+  },
+  {
+    "name": "番杏",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏季主產，產季略有變動"
+  },
+  {
+    "name": "番茄",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "全年可產，春秋季旺"
+  },
+  {
+    "name": "紫丁香蘑",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "結球白菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "結球白菜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "絲瓜",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏季主產"
+  },
+  {
+    "name": "絲瓜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "絲��",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "資料不足"
+  },
+  {
+    "name": "菇蕈類",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "菊芋",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主產，產季略有變動"
+  },
+  {
+    "name": "菜心",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "菜豆",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "春夏季主產，產季略有變動"
+  },
+  {
+    "name": "菜豆進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "菠菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      10,
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "菠菜進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "不考慮進口供應"
+  },
+  {
+    "name": "菱角",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12,
+      1
+    ],
+    "confidence": "medium",
+    "note": "冬季主產，產季略有變動"
+  },
+  {
+    "name": "菾菜",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "春夏季主產，產季略有變動"
+  },
+  {
+    "name": "萊豆",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "3-5 月盛產，夏季供應減少"
+  },
+  {
+    "name": "越瓜",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "雲芝",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "黃豆芽",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定"
+  },
+  {
+    "name": "黃金果",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "low",
+    "note": "產季短，供應有限"
+  },
+  {
+    "name": "黃秋葵",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期盛產"
+  },
+  {
+    "name": "黃秋葵進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "黃藤心",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "low",
+    "note": "產季短，資料有限"
+  },
+  {
+    "name": "黑木耳",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定"
+  },
+  {
+    "name": "黑豆芽",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定"
+  },
+  {
+    "name": "塌棵菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬主要產季"
+  },
+  {
+    "name": "椰子",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "椰子進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "楊桃",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "楊梅",
+    "seasonMonths": [
+      4,
+      5
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "medium",
+    "note": "春季主要產季"
+  },
+  {
+    "name": "滑菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬主要產季"
+  },
+  {
+    "name": "瑞典蕪菁",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "腰果",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "low",
+    "note": "產季短，資料有限"
+  },
+  {
+    "name": "萵苣",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定（不含進口）"
+  },
+  {
+    "name": "萵苣莖",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定"
+  },
+  {
+    "name": "萵苣進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "落花生",
+    "seasonMonths": [
+      8,
+      9,
+      10
+    ],
+    "peakMonths": [
+      9
+    ],
+    "confidence": "medium",
+    "note": "秋季主要產季"
+  },
+  {
+    "name": "落花生芽菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定"
+  },
+  {
+    "name": "落葵",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期盛產"
+  },
+  {
+    "name": "葉用甘藷",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期盛產"
+  },
+  {
+    "name": "葉用蘿蔔",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期盛產"
+  },
+  {
+    "name": "葉菜類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年供應穩定"
+  },
+  {
+    "name": "葡萄",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主要產季"
+  },
+  {
+    "name": "葡萄柚",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬季主要產季"
+  },
+  {
+    "name": "葡萄進口",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "進口品項，產季不適用"
+  },
+  {
+    "name": "過溝菜蕨",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏季盛產"
+  },
+  {
+    "name": "酪梨",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬春季主產"
+  },
+  {
+    "name": "嘉寶果",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋季盛產"
+  },
+  {
+    "name": "慈菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      9
+    ],
+    "confidence": "medium",
+    "note": "春季和秋季產量高"
+  },
+  {
+    "name": "榴槤",
+    "seasonMonths": [
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      6
+    ],
+    "confidence": "high",
+    "note": "夏季主產"
+  },
+  {
+    "name": "碧玉筍",
+    "seasonMonths": [
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      3
+    ],
+    "confidence": "medium",
+    "note": "春季盛產"
+  },
+  {
+    "name": "綠豆",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      5,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春夏和秋季產量高"
+  },
+  {
+    "name": "綠豆芽",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "high",
+    "note": "全年產"
+  },
+  {
+    "name": "臺灣藜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "舞菇",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      10
+    ],
+    "confidence": "medium",
+    "note": "春季和秋季產量高"
+  },
+  {
+    "name": "蒜頭",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "high",
+    "note": "春夏季盛產"
+  },
+  {
+    "name": "辣根",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "冬季主產"
+  },
+  {
+    "name": "辣椒",
+    "seasonMonths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      5,
+      6
+    ],
+    "confidence": "high",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "鳳梨",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "春夏季主產"
+  },
+  {
+    "name": "寬皮柑",
+    "seasonMonths": [
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      12,
+      1
+    ],
+    "confidence": "high",
+    "note": "冬季盛產"
+  },
+  {
+    "name": "廣島菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "漿果類",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "類別太廣，無法提供具體產季"
+  },
+  {
+    "name": "穀類",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "類別太廣，無法提供具體產季"
+  },
+  {
+    "name": "蓮",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏秋季盛產"
+  },
+  {
+    "name": "蓮霧",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季主產"
+  },
+  {
+    "name": "蓴菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季主產"
+  },
+  {
+    "name": "蔥",
+    "seasonMonths": [
+      2,
+      3,
+      4,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      11
+    ],
+    "confidence": "medium",
+    "note": "春季和冬季產量高"
+  },
+  {
+    "name": "蝦夷蔥",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏季盛產"
+  },
+  {
+    "name": "豌豆",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春季與秋季盛產"
+  },
+  {
+    "name": "豌豆芽菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "high",
+    "note": "全年可產，但春季最旺"
+  },
+  {
+    "name": "髮菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產季"
+  },
+  {
+    "name": "學菜",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "low",
+    "note": "春季產，資料有限"
+  },
+  {
+    "name": "樹豆",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "low",
+    "note": "夏季產，資料有限"
+  },
+  {
+    "name": "樹番茄",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季為主"
+  },
+  {
+    "name": "橄欖",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "low",
+    "note": "冬季，台灣產量少"
+  },
+  {
+    "name": "澳洲胡桃",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "台灣不常產"
+  },
+  {
+    "name": "燕麥",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "low",
+    "note": "秋季，資料有限"
+  },
+  {
+    "name": "蕎麥",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏交替期"
+  },
+  {
+    "name": "蕎麥芽菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4
+    ],
+    "confidence": "high",
+    "note": "全年可產，春季最旺"
+  },
+  {
+    "name": "蕎頭",
+    "seasonMonths": [
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      11
+    ],
+    "confidence": "low",
+    "note": "冬季，資料有限"
+  },
+  {
+    "name": "錫蘭橄欖",
+    "seasonMonths": [],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "台灣不常產"
+  },
+  {
+    "name": "鮑魚菇",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產"
+  },
+  {
+    "name": "龍眼",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "high",
+    "note": "夏季盛產"
+  },
+  {
+    "name": "龍葵",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      6,
+      7
+    ],
+    "confidence": "medium",
+    "note": "夏季為主"
+  },
+  {
+    "name": "龍鳳草",
+    "seasonMonths": [
+      3,
+      4,
+      5
+    ],
+    "peakMonths": [
+      4
+    ],
+    "confidence": "low",
+    "note": "春季產，資料有限"
+  },
+  {
+    "name": "龍鬚菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產"
+  },
+  {
+    "name": "翼豆",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "low",
+    "note": "夏季，資料有限"
+  },
+  {
+    "name": "蕹菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "春季與秋季最旺"
+  },
+  {
+    "name": "薏苡",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏末秋初"
+  },
+  {
+    "name": "薑",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "high",
+    "note": "冬季為主，年末最旺"
+  },
+  {
+    "name": "薯蕷",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "medium",
+    "note": "秋冬季產"
+  },
+  {
+    "name": "闊苞菊",
+    "seasonMonths": [
+      9,
+      10,
+      11
+    ],
+    "peakMonths": [
+      10
+    ],
+    "confidence": "low",
+    "note": "秋季，資料有限"
+  },
+  {
+    "name": "闊葉大豆",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "low",
+    "note": "夏季，資料有限"
+  },
+  {
+    "name": "鴻喜菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "全年產季，春季最旺"
+  },
+  {
+    "name": "檬果",
+    "seasonMonths": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "夏秋季盛產"
+  },
+  {
+    "name": "檳榔",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季收成"
+  },
+  {
+    "name": "薺菜",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春秋旺"
+  },
+  {
+    "name": "藍莓",
+    "seasonMonths": [
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      1,
+      2
+    ],
+    "confidence": "medium",
+    "note": "冬季產季（部分地區）"
+  },
+  {
+    "name": "雜糧類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "多樣，產季不一"
+  },
+  {
+    "name": "雞肉絲菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "全年產季，春季最旺"
+  },
+  {
+    "name": "雞腿菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "全年產季，春季最旺"
+  },
+  {
+    "name": "羅勒",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春秋旺"
+  },
+  {
+    "name": "羅望子",
+    "seasonMonths": [
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      8,
+      9
+    ],
+    "confidence": "medium",
+    "note": "夏秋交季收成"
+  },
+  {
+    "name": "藤三七",
+    "seasonMonths": [
+      6,
+      7,
+      8
+    ],
+    "peakMonths": [
+      7
+    ],
+    "confidence": "low",
+    "note": "夏季產季（資料有限）"
+  },
+  {
+    "name": "藷類",
+    "seasonMonths": [
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      11,
+      12
+    ],
+    "confidence": "medium",
+    "note": "秋冬季收成"
+  },
+  {
+    "name": "鵲豆",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏季產季"
+  },
+  {
+    "name": "糯米糰",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "全年產季，無明顯旺季"
+  },
+  {
+    "name": "蘆筍",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春秋旺"
+  },
+  {
+    "name": "蘋果",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋季收成"
+  },
+  {
+    "name": "蘋婆",
+    "seasonMonths": [
+      5,
+      6,
+      7
+    ],
+    "peakMonths": [
+      6
+    ],
+    "confidence": "medium",
+    "note": "夏季產季"
+  },
+  {
+    "name": "蠔菇",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      3,
+      4,
+      5
+    ],
+    "confidence": "high",
+    "note": "全年產季，春季最旺"
+  },
+  {
+    "name": "釋迦",
+    "seasonMonths": [
+      12,
+      1,
+      2,
+      3,
+      4
+    ],
+    "peakMonths": [
+      1,
+      2
+    ],
+    "confidence": "high",
+    "note": "冬春季產季"
+  },
+  {
+    "name": "麵包果",
+    "seasonMonths": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "peakMonths": [
+      7,
+      8
+    ],
+    "confidence": "medium",
+    "note": "夏季產季"
+  },
+  {
+    "name": "櫻桃",
+    "seasonMonths": [
+      12,
+      1,
+      2
+    ],
+    "peakMonths": [
+      1
+    ],
+    "confidence": "high",
+    "note": "冬季產季"
+  },
+  {
+    "name": "蘘荷",
+    "seasonMonths": [
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      5
+    ],
+    "confidence": "low",
+    "note": "春夏交季產季（資料有限）"
+  },
+  {
+    "name": "蘿蔔",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季收成"
+  },
+  {
+    "name": "蘿蔔芽菜",
+    "seasonMonths": [
+      9,
+      10,
+      11,
+      12,
+      1,
+      2,
+      3
+    ],
+    "peakMonths": [
+      10,
+      11
+    ],
+    "confidence": "high",
+    "note": "秋冬季收成"
+  },
+  {
+    "name": "鱗莖類",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [],
+    "confidence": "low",
+    "note": "多樣，產季不一"
+  },
+  {
+    "name": "蠶豆",
+    "seasonMonths": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "peakMonths": [
+      4,
+      5
+    ],
+    "confidence": "medium",
+    "note": "春夏季產季"
+  },
+  {
+    "name": "蠶豆芽",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "confidence": "high",
+    "note": "全年產季，春秋旺"
+  },
+  {
+    "name": "靈芝",
+    "seasonMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "peakMonths": [
+      6,
+      7,
+      8
+    ],
+    "confidence": "high",
+    "note": "全年產季，夏季產量最高"
+  }
+]
