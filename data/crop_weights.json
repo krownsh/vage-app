@@ -1,1892 +1,6155 @@
 [
   {
-    "name": "人心果",
-    "avgWeightKg": 0.15,
+    "name": "不結球白菜-其它品種",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均直徑約5-6cm"
+    "note": "平均一把約500克"
   },
   {
-    "name": "刀豆",
-    "avgWeightKg": 0.05,
+    "name": "不結球白菜-黑葉白菜",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均長約10-12cm"
+    "note": "平均一把約500克"
   },
   {
-    "name": "千寶菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一束約10-15莖"
-  },
-  {
-    "name": "大蒜",
-    "avgWeightKg": 0.04,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均一顆約40克"
-  },
-  {
-    "name": "大蒜進口",
-    "avgWeightKg": 0.05,
+    "name": "不結球白菜-鳳京白菜",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "進口品稍大"
+    "note": "平均一把約500克"
   },
   {
-    "name": "小松菜",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一束約20-25莖"
-  },
-  {
-    "name": "小果番茄",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均直徑約3-4cm"
-  },
-  {
-    "name": "小波羅蜜",
-    "avgWeightKg": 0.3,
+    "name": "不結球白菜-荷葉白菜",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均直徑約8-10cm"
+    "note": "平均一把約500克"
   },
   {
-    "name": "小海帶",
-    "avgWeightKg": 0.02,
+    "name": "不結球白菜-青梗白菜",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均長約10-15cm"
+    "note": "平均一把約500克"
   },
   {
-    "name": "山竹",
-    "avgWeightKg": 0.25,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均直徑約6-8cm"
-  },
-  {
-    "name": "山竹進口",
-    "avgWeightKg": 0.3,
+    "name": "不結球白菜-土白菜",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "進口品稍大"
+    "note": "平均一把約500克"
   },
   {
-    "name": "山茼蒿",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一束約15-20莖"
-  },
-  {
-    "name": "山菠菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一束約25-30莖"
-  },
-  {
-    "name": "山葵",
-    "avgWeightKg": 0.1,
+    "name": "不結球白菜-蚵仔白",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均長約15-20cm"
+    "note": "平均一把約500克"
   },
   {
-    "name": "山蘇",
-    "avgWeightKg": 0.05,
+    "name": "不結球白菜-小白菜",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均長約10-12cm"
+    "note": "平均一把約500克"
   },
   {
     "name": "不結球白菜",
     "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一把約500克"
+  },
+  {
+    "name": "中國棗-其他品種",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "平均重量約500克"
+    "note": "單顆約20克"
+  },
+  {
+    "name": "中國棗-紅棗",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約20克"
   },
   {
     "name": "中國棗",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約20克"
+  },
+  {
+    "name": "人心果",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "平均直徑約4-5cm"
+    "note": "平均一顆約150克"
   },
   {
-    "name": "分蔥",
+    "name": "人蔘菜",
     "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "平均長約15-18cm"
-  },
-  {
-    "name": "巴西蘑菇",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "平均直徑約5-6cm"
-  },
-  {
-    "name": "斤耳",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "平均長約12-15cm"
-  },
-  {
-    "name": "木薯",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均長約15-20cm"
-  },
-  {
-    "name": "木鱉果",
-    "avgWeightKg": 0.25,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "平均直徑約6-8cm"
-  },
-  {
-    "name": "毛木耳",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "毛木耳通常小巧，單個重量約 50 克"
-  },
-  {
-    "name": "毛豆",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "毛豆通常成束出售，一束約 150 克"
-  },
-  {
-    "name": "水合歡",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設單個水合歡約 200 克，實際可能有變異"
-  },
-  {
-    "name": "水芹",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "水芹通常成小束出售，一束約 100 克"
-  },
-  {
-    "name": "水菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "水菜一把約 200 克"
-  },
-  {
-    "name": "水蓮",
-    "avgWeightKg": 0.5,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個水蓮約 500 克，依品種不同可能有變異"
-  },
-  {
-    "name": "爪哇橄欖",
-    "avgWeightKg": 0.03,
     "weightUnit": "perPiece",
     "confidence": "low",
-    "note": "缺乏爪哇橄欖單個重量的具體資料，假設約 30 克"
+    "note": "估計約100克，缺乏資料"
   },
   {
-    "name": "牛肝菌",
-    "avgWeightKg": 0.2,
+    "name": "仁果類",
+    "avgWeightKg": 0.05,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "牛肝菌單個約 200 克，依大小不同有變異"
-  },
-  {
-    "name": "牛蒡",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "牛蒡一根約 300 克"
+    "confidence": "low",
+    "note": "多樣，估計約50克"
   },
   {
     "name": "仙人掌肉質莖",
-    "avgWeightKg": 0.5,
+    "avgWeightKg": 0.3,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設單個仙人掌肉質莖約 500 克，實際可能有變異"
+    "note": "平均一莖約300克"
   },
   {
-    "name": "冬瓜",
-    "avgWeightKg": 1.5,
+    "name": "其他仁果",
+    "avgWeightKg": 0.08,
     "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "冬瓜單個約 1.5 公斤，依品種和大小不同有大幅變異"
+    "confidence": "low",
+    "note": "多樣，估計約80克"
   },
   {
-    "name": "北蟲草",
+    "name": "其他堅果",
     "avgWeightKg": 0.01,
     "weightUnit": "perPiece",
     "confidence": "low",
-    "note": "北蟲草非常輕，假設約 10 克，缺乏確切資料"
+    "note": "多樣，估計約10克"
   },
   {
-    "name": "半天筍",
+    "name": "其他果樹",
+    "avgWeightKg": 1,
+    "weightUnit": "perKg",
+    "confidence": "low",
+    "note": "不適用單顆重量"
+  },
+  {
+    "name": "其他果菜",
     "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "半天筍約 200 克，依大小不同有變異"
-  },
-  {
-    "name": "可可",
-    "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "low",
-    "note": "可可豆單個約 100 克，缺乏確切的新鮮可可莖重量資料"
-  },
-  {
-    "name": "玉米",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "玉米一條約 300 克（去殼），依品種不同有變異"
-  },
-  {
-    "name": "玉米筍",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "玉米筍約 50 克，依大小不同有變異"
-  },
-  {
-    "name": "甘蔗筍",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "甘蔗筍約 200 克，依大小不同有變異"
-  },
-  {
-    "name": "甘藍",
-    "avgWeightKg": 1.2,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "甘藍一顆約 1.2 公斤，依品種和大小不同有變異"
-  },
-  {
-    "name": "甘藍芽菜",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "甘藍芽菜一把約 100 克"
-  },
-  {
-    "name": "甘藷",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "甘藷一顆約 400 克，依品種和大小不同有變異"
-  },
-  {
-    "name": "白木耳",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "白木耳通常小巧，單個約 50 克"
-  },
-  {
-    "name": "白玉菇",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "白玉菇約 200 克，依大小不同有變異"
-  },
-  {
-    "name": "白鳳菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "白鳳菜一把約 200 克"
-  },
-  {
-    "name": "白靈菇",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "一般單個白靈菇重量約 50 克"
-  },
-  {
-    "name": "石榴",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均石榴重量約 400 克"
-  },
-  {
-    "name": "石榴進口",
-    "avgWeightKg": 0.45,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "進口石榴可能稍大，約 450 克"
-  },
-  {
-    "name": "印度棗",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個印度棗約 20 克（變體重量可能有差異)"
-  },
-  {
-    "name": "印度棗進口",
-    "avgWeightKg": 0.025,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "進口品可能稍大，但資料有限"
-  },
-  {
-    "name": "吉康菜",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一把吉康菜約 300 克"
-  },
-  {
-    "name": "百香果",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均百香果重量約 150 克"
-  },
-  {
-    "name": "竹筍",
-    "avgWeightKg": 0.5,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "一般竹筍重量約 500 克（變體可能有差異)"
-  },
-  {
-    "name": "竹筍進口",
-    "avgWeightKg": 0.6,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "進口竹筍可能較大"
-  },
-  {
-    "name": "羽衣甘藍",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均羽衣甘藍重量約 400 克"
-  },
-  {
-    "name": "西瓜",
-    "avgWeightKg": 5,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均西瓜重量約 5 公斤（變體差異大)"
-  },
-  {
-    "name": "西瓜進口",
-    "avgWeightKg": 6,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "進口西瓜可能較大"
-  },
-  {
-    "name": "西印度櫻桃",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個西印度櫻桃約 50 克"
-  },
-  {
-    "name": "西洋菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一把西洋菜約 200 克"
-  },
-  {
-    "name": "李",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均李子重量約 120 克（變體差異)"
-  },
-  {
-    "name": "李進口",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "進口李可能稍大"
-  },
-  {
-    "name": "杏",
-    "avgWeightKg": 0.08,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個杏約 80 克"
-  },
-  {
-    "name": "杏鮑菇",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個杏鮑菇約 100 克"
-  },
-  {
-    "name": "秀珍菇",
-    "avgWeightKg": 0.03,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個秀珍菇約 30 克"
-  },
-  {
-    "name": "芋",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "平均芋重量約 300 克（變體差異)"
-  },
-  {
-    "name": "芋進口",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "進口芋可能較大"
-  },
-  {
-    "name": "豆薯",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個豆薯約 200 克"
+    "note": "多樣，估計約200克"
   },
   {
     "name": "其他果菜苗",
     "avgWeightKg": 0.05,
     "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "苗類通常輕，假設一把約50克"
+    "confidence": "low",
+    "note": "苗狀，估計一把約50克"
   },
   {
-    "name": "其他花菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
+    "name": "其他柑橘-其他品種",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設一把花菜約200克（如花椰菜、西蘭花）"
+    "note": "平均一顆約150克"
   },
   {
-    "name": "其他花菜苗",
-    "avgWeightKg": 0.03,
-    "weightUnit": "perBundle",
+    "name": "其他柑橘-雜柑類",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "苗類輕，假設一把約30克"
+    "note": "平均一顆約150克"
   },
   {
-    "name": "其他芽菜",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
+    "name": "其他柑橘-虎頭柑",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "芽菜通常輕，假設一把約100克"
+    "note": "平均一顆約150克"
   },
   {
     "name": "其他柑橘",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設其他柑橘品種單果約150克（參考橙子、柠檬大小）"
+    "note": "平均一顆約150克"
   },
   {
-    "name": "其他堅果",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設單顆堅果約10克（參考核桃、杏仁）"
-  },
-  {
-    "name": "其他莖菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把莖菜約200克"
-  },
-  {
-    "name": "其他菇類",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設單顆菇約50克"
-  },
-  {
-    "name": "其他葉菜",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把葉菜約100克"
-  },
-  {
-    "name": "其他葉菜苗",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "苗類輕，假設一把約20克"
-  },
-  {
-    "name": "其他漿果",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設單顆漿果約50克（參考草莓、藍莓）"
-  },
-  {
-    "name": "其他藷類",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設單顆藷類約200克"
-  },
-  {
-    "name": "其他鱗莖",
+    "name": "其他柑橘-雜柑類進口",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設單顆鱗莖約150克"
+    "note": "平均一顆約150克"
+  },
+  {
+    "name": "其他根菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一根約200克"
+  },
+  {
+    "name": "其他漿果",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約100克"
+  },
+  {
+    "name": "其他瓜菜",
+    "avgWeightKg": 1.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約1.5公斤"
+  },
+  {
+    "name": "其他短期蔬菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "多樣，估計一把約200克"
+  },
+  {
+    "name": "其他穀類",
+    "avgWeightKg": 1,
+    "weightUnit": "perKg",
+    "confidence": "high",
+    "note": "不適用單顆重量"
+  },
+  {
+    "name": "其他花菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約100克"
+  },
+  {
+    "name": "其他花菜苗",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "苗狀，估計一把約30克"
+  },
+  {
+    "name": "其他芽菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "芽狀，估計一把約50克"
+  },
+  {
+    "name": "其他莖菜",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一莖約150克"
+  },
+  {
+    "name": "其他菇類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約100克"
+  },
+  {
+    "name": "其他葉菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "平均一把約200克"
+  },
+  {
+    "name": "其他葉菜苗",
+    "avgWeightKg": 0.04,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "苗狀，估計一把約40克"
+  },
+  {
+    "name": "其他蔬菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約250克"
+  },
+  {
+    "name": "其他蔬菜類",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約200克"
+  },
+  {
+    "name": "其他藷類",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約300克"
+  },
+  {
+    "name": "其他豆菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約100克"
+  },
+  {
+    "name": "其他豆類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "多樣，估計約50克"
+  },
+  {
+    "name": "其他長期蔬菜",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均一顆約500克"
   },
   {
     "name": "其它核果",
-    "avgWeightKg": 0.12,
+    "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設單顆核果約120克（參考桃子、梅子）"
+    "note": "假設平均核果大小，如梅子、櫻桃等"
+  },
+  {
+    "name": "冬瓜-其它品種",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均冬瓜大小約2公斤"
+  },
+  {
+    "name": "冬瓜-毛瓜",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均冬瓜大小約2公斤"
+  },
+  {
+    "name": "冬瓜-吉豐",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均冬瓜大小約2公斤"
+  },
+  {
+    "name": "冬瓜-青皮冬瓜",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均冬瓜大小約2公斤"
+  },
+  {
+    "name": "冬瓜-白皮冬瓜",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均冬瓜大小約2公斤"
+  },
+  {
+    "name": "冬瓜",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均冬瓜大小約2公斤"
+  },
+  {
+    "name": "冬瓜進口",
+    "avgWeightKg": 2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "進口冬瓜尺寸相似於本地"
+  },
+  {
+    "name": "冰花",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "冰花通常成束出售，約100-200克/束"
+  },
+  {
+    "name": "刀豆",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均刀豆大小約150克"
+  },
+  {
+    "name": "分蔥",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均分蔥大小約80克"
   },
   {
     "name": "刺芹",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "刺芹通常成束出售，約200克/束"
+  },
+  {
+    "name": "千寶菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "假設平均千寶菜大小"
+  },
+  {
+    "name": "半天筍",
     "avgWeightKg": 0.25,
     "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均半天筍大小約250克"
+  },
+  {
+    "name": "南瓜-其它品種",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "刺芹單根約250克"
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-栗子南瓜",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-東昇",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-觀賞南瓜",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-夏南瓜",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-青如意",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-黃如意",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-圓形南瓜",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜-木瓜形南瓜",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均南瓜大小約3公斤"
+  },
+  {
+    "name": "南瓜進口",
+    "avgWeightKg": 3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "進口南瓜尺寸相似於本地"
+  },
+  {
+    "name": "印度棗-其他品種",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗-金桃",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗-天蜜",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗-翠蜜",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗-仙桃",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗-蜜棗",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗-蜜棗進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均印度棗大小約120克"
+  },
+  {
+    "name": "印度棗進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口印度棗尺寸相似於本地"
+  },
+  {
+    "name": "吉康菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "吉康菜通常成束出售，約200克/束"
+  },
+  {
+    "name": "嘉寶果",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均嘉寶果大小約180克"
+  },
+  {
+    "name": "塌棵菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均塌棵菜大小約250克"
+  },
+  {
+    "name": "大蒜-其它品種",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均大蒜大小約50克"
+  },
+  {
+    "name": "大蒜-白蒜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均大蒜大小約50克"
+  },
+  {
+    "name": "大蒜-蒜苔",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均大蒜大小約50克"
+  },
+  {
+    "name": "大蒜-軟骨大蒜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均大蒜大小約50克"
+  },
+  {
+    "name": "大蒜-硬骨大蒜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均大蒜大小約50克"
+  },
+  {
+    "name": "大蒜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均大蒜大小約50克"
+  },
+  {
+    "name": "大蒜進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口大蒜尺寸相似於本地"
   },
   {
     "name": "奇異果",
     "avgWeightKg": 0.12,
     "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "奇異果單果約120克"
+    "confidence": "medium",
+    "note": "平均奇異果大小約120克"
   },
   {
     "name": "奇異果進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口奇異果尺寸相似於本地"
+  },
+  {
+    "name": "學菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "學菜通常成束出售，約200克/束"
+  },
+  {
+    "name": "富貴豆",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均富貴豆大小約150克"
+  },
+  {
+    "name": "寬皮柑-砂糖橘",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-金州柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-貢橘",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-帝王柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-不知火",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-三寶柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-豔陽柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-佛利檬",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-溫州柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-紅柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-茂谷柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-椪柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-海梨柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-桶柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-無子桶柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-天王柑",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-椪柑進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "寬皮柑-其他品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均寬皮柑大小約200克"
+  },
+  {
+    "name": "小松菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約5-10根，平均每把重約50克"
+  },
+  {
+    "name": "小果番茄-夏越3號",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-亞蔬11號",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-亞蔬6號",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-桃太郎",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-小姑娘",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-慧珠",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-聖運",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-嬌女",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-聖女",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-玉女",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小果番茄-其它品種",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "小波羅蜜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "尺寸差異大，平均估計約200克"
+  },
+  {
+    "name": "山竹",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約150克，異常大者除外"
+  },
+  {
+    "name": "山竹進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品通常較大，估計約200克"
+  },
+  {
+    "name": "山茼蒿",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約100克，約10-15根"
+  },
+  {
+    "name": "山菠菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約50克，約5-10根"
+  },
+  {
+    "name": "山葵",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單根約50克，異常大者除外"
+  },
+  {
+    "name": "山蘇",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克，約10-15根"
+  },
+  {
+    "name": "巴西蘑菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "廣島菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克，異常大者除外"
+  },
+  {
+    "name": "慈菇",
     "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "進口奇異果可能小於國產，約100克"
+    "note": "單顆約100克"
+  },
+  {
+    "name": "扁桃",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "扁蒲-其它品種",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "扁蒲-梨子蒲",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "扁蒲-花蒲",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "扁蒲-圓形扁蒲",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "扁蒲-長形扁蒲",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "扁蒲",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "斤耳",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約300克"
+  },
+  {
+    "name": "晚香玉筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "朝鮮薊",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克，約10-15根"
+  },
+  {
+    "name": "木薯",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克，異常大者除外"
+  },
+  {
+    "name": "木鱉果",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約300克"
+  },
+  {
+    "name": "李-其他品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-蜜李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-泰安李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-加州李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-黃肉李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-紅肉李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-桃接李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李-沙蓮李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "李進口",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品通常較大，估計約150克"
+  },
+  {
+    "name": "杏",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "杏仁",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "杏鮑菇",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
   },
   {
     "name": "松茸",
-    "avgWeightKg": 0.5,
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "新鮮松茸平均重量約200克"
+  },
+  {
+    "name": "枇杷-其他品種",
+    "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "松茸單顆約500克（中型）"
+    "note": "一般枇杷單果重量約150克"
+  },
+  {
+    "name": "枇杷-茂木",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般枇杷單果重量約150克"
+  },
+  {
+    "name": "枇杷-田中",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般枇杷單果重量約150克"
   },
   {
     "name": "枇杷",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均直徑約5-6cm，重量參考常見水果比例"
+    "confidence": "high",
+    "note": "一般枇杷單果重量約150克"
   },
   {
-    "name": "油江菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約20-25根，參考常見葉菜重量"
-  },
-  {
-    "name": "油柑",
-    "avgWeightKg": 0.05,
+    "name": "枇杷進口",
+    "avgWeightKg": 0.12,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "參考小型柑橘類水果平均重量"
+    "note": "進口枇杷可能較小，約120克"
   },
   {
-    "name": "油菜",
+    "name": "枸櫞-其他品種",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-酸萊姆",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-佛手",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-香櫞",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-香水檸檬",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-廣東檸檬",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-萊姆",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞-檸檬",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "枸櫞",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單果重量約50克"
+  },
+  {
+    "name": "柑橘類",
     "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約15-20根，參考常見葉菜重量"
-  },
-  {
-    "name": "波羅蜜",
-    "avgWeightKg": 1.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "參考中型水果平均重量（約直徑10-12cm）"
+    "note": "平均約100克（變異大）"
   },
   {
-    "name": "牧草筍",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "純猜測，實際重量可能有所不同"
-  },
-  {
-    "name": "芝麻菜",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約10-15根，參考常見葉菜重量"
-  },
-  {
-    "name": "芥菜",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約25-30根，參考常見葉菜重量"
-  },
-  {
-    "name": "芥藍",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "參考中型頭狀葉菜平均重量"
-  },
-  {
-    "name": "芥藍芽菜",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "low",
-    "note": "純猜測，實際重量可能有所不同"
-  },
-  {
-    "name": "芫荽",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約5-10根，參考常見葉菜重量"
-  },
-  {
-    "name": "芭蕉",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "參考小型香蕉平均重量"
-  },
-  {
-    "name": "花椰菜",
+    "name": "柚子-其他品種",
     "avgWeightKg": 0.6,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "參考中型頭狀花菜平均重量"
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
   },
   {
-    "name": "芹菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "參考中型芹菜平均重量"
-  },
-  {
-    "name": "金耳",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "純猜測，實際重量可能有所不同"
-  },
-  {
-    "name": "金柑與小果柑橘",
-    "avgWeightKg": 0.04,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "參考小型柑橘類水果平均重量"
-  },
-  {
-    "name": "金針花",
-    "avgWeightKg": 0.005,
-    "weightUnit": "perBundle",
-    "confidence": "low",
-    "note": "純猜測，實際重量可能有所不同"
-  },
-  {
-    "name": "金針菇",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "純猜測，實際重量可能有所不同"
-  },
-  {
-    "name": "金福菇",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，實際可能有所不同"
-  },
-  {
-    "name": "長山核桃",
-    "avgWeightKg": 0.05,
+    "name": "柚子-蜜柚",
+    "avgWeightKg": 0.6,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "核桃通常小，單顆約50克"
+    "note": "一般柚子重量約600克"
   },
   {
-    "name": "青油菜",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約400克，實際視束大小不同"
-  },
-  {
-    "name": "青花菜芽菜",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "資料不足，假設很小"
-  },
-  {
-    "name": "青菘菜",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約300克"
-  },
-  {
-    "name": "南瓜進口",
-    "avgWeightKg": 1.8,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設中型，資料不足"
-  },
-  {
-    "name": "扁桃",
-    "avgWeightKg": 0.02,
+    "name": "柚子-香柚",
+    "avgWeightKg": 0.6,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "扁桃通常很小"
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子-斗柚",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子-西施柚",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子-紅柚",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子-白柚",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子-文旦",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
+  },
+  {
+    "name": "柚子-西施柚進口",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般柚子重量約600克"
   },
   {
     "name": "柚子進口",
-    "avgWeightKg": 0.55,
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設中型，資料不足"
+    "confidence": "medium",
+    "note": "進口柚子可能較小，約500克"
+  },
+  {
+    "name": "柿-其他品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-石柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-次郎",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-富有",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-秋柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-筆柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-甜柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-水柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
+  },
+  {
+    "name": "柿-紅柿",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "新鮮柿子約200克"
   },
   {
     "name": "柿子",
     "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "一般中型"
+    "confidence": "high",
+    "note": "同柿"
   },
   {
     "name": "柿子進口",
-    "avgWeightKg": 0.18,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設中小型，資料不足"
-  },
-  {
-    "name": "洋菇",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "一般大小"
-  },
-  {
-    "name": "珊瑚菇",
-    "avgWeightKg": 0.08,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "一般小型"
-  },
-  {
-    "name": "珍珠菜",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約400克"
-  },
-  {
-    "name": "紅毛丹",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "一般小型"
-  },
-  {
-    "name": "紅毛丹進口",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設小型，資料不足"
-  },
-  {
-    "name": "紅豆芽",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "很小"
-  },
-  {
-    "name": "紅鳳菜",
-    "avgWeightKg": 0.35,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設一把約350克"
-  },
-  {
-    "name": "紅龍果(進口)",
-    "avgWeightKg": 0.28,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設中型，資料不足"
-  },
-  {
-    "name": "胡桃",
-    "avgWeightKg": 0.07,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "一般小型"
-  },
-  {
-    "name": "胡榛子",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約20克，參考一般堅果尺寸"
-  },
-  {
-    "name": "胡蘿蔔",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "參考提供的參考值，平均單顆重量約150克"
-  },
-  {
-    "name": "胡蘿蔔進口",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設與本地品種重量相近"
-  },
-  {
-    "name": "苦瓜",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "參考提供的參考值，平均單顆重量約300克"
-  },
-  {
-    "name": "苦瓜進口",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設與本地品種重量相近"
-  },
-  {
-    "name": "茄子",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "參考提供的參考值，平均單顆重量約200克"
-  },
-  {
-    "name": "韭蔥",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約100克"
-  },
-  {
-    "name": "食用百合",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約150克"
-  },
-  {
-    "name": "食茱萸",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約10克"
-  },
-  {
-    "name": "香瓜茄",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設與一般茄子類似，平均單顆重量約200克"
-  },
-  {
-    "name": "香菇",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約50克"
-  },
-  {
-    "name": "香蕉",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "參考提供的參考值，平均單顆重量約120克"
+    "note": "進口柿子可能較小"
   },
   {
     "name": "栗子",
-    "avgWeightKg": 0.03,
+    "avgWeightKg": 0.05,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約30克"
+    "confidence": "high",
+    "note": "單顆栗子約50克"
+  },
+  {
+    "name": "桃-其他品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-加州桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-福壽桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-早桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-甜桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-鶯歌桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-水蜜桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
   },
   {
     "name": "桃",
-    "avgWeightKg": 0.2,
+    "avgWeightKg": 0.25,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "參考提供的參考值，平均單顆重量約200克"
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-甜桃進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-水蜜桃進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
+  },
+  {
+    "name": "桃-甜蜜桃",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般桃子重量約250克"
   },
   {
     "name": "桃進口",
     "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設與本地品種重量相近"
+    "note": "進口桃可能較小"
+  },
+  {
+    "name": "桑椹-其他品種",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆桑椹約10克"
+  },
+  {
+    "name": "桑椹-長果桑",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆桑椹約10克"
+  },
+  {
+    "name": "桑椹-果桑",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆桑椹約10克"
   },
   {
     "name": "桑椹",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約50克"
-  },
-  {
-    "name": "神秘果",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約100克"
-  },
-  {
-    "name": "粉紅玫瑰菇",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量約50克"
-  },
-  {
-    "name": "茭白筍",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "一般茭白筍單根重量約 150 克"
-  },
-  {
-    "name": "茴香",
-    "avgWeightKg": 0.02,
+    "avgWeightKg": 0.01,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "茴香通常很小，單個約 20 克"
-  },
-  {
-    "name": "茶樹菇",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，單個約 50 克"
-  },
-  {
-    "name": "茼蒿",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一把茼蒿約 100 克"
-  },
-  {
-    "name": "草莓",
-    "avgWeightKg": 0.005,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個草莓約 5 克"
-  },
-  {
-    "name": "草菇",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，單個約 20 克"
-  },
-  {
-    "name": "荔枝",
-    "avgWeightKg": 0.025,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個荔枝約 25 克（不含皮）"
-  },
-  {
-    "name": "豇豆",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單根豇豆約 50 克"
-  },
-  {
-    "name": "酒杯菇",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，單個約 100 克"
-  },
-  {
-    "name": "隼人瓜",
-    "avgWeightKg": 1.5,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，單個約 1.5 公斤"
-  },
-  {
-    "name": "馬鈴薯",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個馬鈴薯約 150 克"
-  },
-  {
-    "name": "馬齒莧",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "一把馬齒莧約 100 克"
-  },
-  {
-    "name": "晚香玉筍",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單根晚香玉筍約 100 克"
+    "note": "單顆桑椹約10克"
   },
   {
     "name": "梅",
-    "avgWeightKg": 0.02,
+    "avgWeightKg": 0.05,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個梅約 20 克"
+    "confidence": "high",
+    "note": "新鮮梅子約50克"
+  },
+  {
+    "name": "梨-其他品種",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-甘露梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-西洋梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-台中2號",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-台中1號",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-黃金梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-雪梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-蜜梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-4029梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-鳥梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-幸水梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-豐水梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-新興梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-世紀梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-秋水梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-橫山梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
   },
   {
     "name": "梨",
-    "avgWeightKg": 0.25,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個梨約 250 克（依品種不同）"
-  },
-  {
-    "name": "球莖甘藍",
-    "avgWeightKg": 0.5,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個球莖甘藍約 500 克"
-  },
-  {
-    "name": "甜瓜",
-    "avgWeightKg": 2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，單個約 2 公斤"
-  },
-  {
-    "name": "甜椒",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個甜椒約 150 克"
-  },
-  {
-    "name": "甜菜根",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單根甜菜根約 200 克"
-  },
-  {
-    "name": "甜橙",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個甜橙約 120 克"
-  },
-  {
-    "name": "荸薺",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "單個荸薺約 100 克"
-  },
-  {
-    "name": "莖菜類",
-    "avgWeightKg": 0.25,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單株重量，實際可能因品種不同有所變動"
-  },
-  {
-    "name": "蛇瓜",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單條重量，實際可能因長度不同有所變動"
-  },
-  {
-    "name": "蛋黃果",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因成熟度不同有所變動"
-  },
-  {
-    "name": "雪蓮薯",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "富貴豆",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設非常小的單顆重量，實際資料可能有所不同"
-  },
-  {
-    "name": "朝鮮薊",
     "avgWeightKg": 0.3,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設平均一把重量，實際可能因束的緊密度不同有所變動"
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-其他品種進口",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-西洋梨進口",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
+  },
+  {
+    "name": "梨-梨穗",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般梨子重量約300克"
   },
   {
     "name": "棗椰子",
-    "avgWeightKg": 0.5,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "無花果",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因成熟度不同有所變動"
-  },
-  {
-    "name": "猴頭菇",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "番杏",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "紫丁香蘑",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "結球白菜進口",
-    "avgWeightKg": 1,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設較大的平均重量（進口品可能較大），實際資料可能有所不同"
-  },
-  {
-    "name": "絲瓜進口",
-    "avgWeightKg": 1.5,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設較大的平均重量（進口品可能較大），實際資料可能有所不同"
-  },
-  {
-    "name": "菊芋",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "菜心",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設平均一把重量，實際可能因束的緊密度不同有所變動"
-  },
-  {
-    "name": "菜豆進口",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "假設小的平均重量（進口品可能較小），實際資料可能有所不同"
-  },
-  {
-    "name": "菠菜",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設平均一把重量，實際可能因束的緊密度不同有所變動"
-  },
-  {
-    "name": "菠菜進口",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "low",
-    "note": "假設平均一把重量（進口品可能較大），實際資料可能有所不同"
-  },
-  {
-    "name": "菱角",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均單顆重量，實際可能因大小不同有所變動"
-  },
-  {
-    "name": "菾菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
-    "confidence": "medium",
-    "note": "假設平均一把重量，實際可能因束的緊密度不同有所變動"
-  },
-  {
-    "name": "萊豆",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "萊豆通常小型，單顆約150克"
-  },
-  {
-    "name": "雲芝",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "雲芝通常小巧，單顆約50克"
-  },
-  {
-    "name": "黃豆芽",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "黃豆芽通常成束賣，約20克/束"
-  },
-  {
-    "name": "黃金果",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "黃金果單顆約200克，略有差異"
-  },
-  {
-    "name": "黃秋葵",
-    "avgWeightKg": 0.25,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "黃秋葵單條約250克"
-  },
-  {
-    "name": "黃秋葵進口",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "進口品種可能較大，估計約300克"
-  },
-  {
-    "name": "黑木耳",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "黑木耳小型，單顆約10克"
-  },
-  {
-    "name": "黑豆芽",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "黑豆芽與黃豆芽類似，約20克/束"
-  },
-  {
-    "name": "塌棵菜",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "塌棵菜單株約400克"
+    "note": "棗椰子約150克，變異較大"
   },
   {
     "name": "椰子",
     "avgWeightKg": 1.2,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "椰子單顆約1.2kg"
+    "note": "整個椰子約1.2公斤"
   },
   {
     "name": "椰子進口",
     "avgWeightKg": 1,
     "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "進口椰子可能較小，估計約1kg"
+    "confidence": "medium",
+    "note": "進口椰子可能較小"
+  },
+  {
+    "name": "楊桃-其他品種",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般楊桃重量約400克"
+  },
+  {
+    "name": "楊桃-馬來亞種",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般楊桃重量約400克"
+  },
+  {
+    "name": "楊桃-紅龍",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般楊桃重量約400克"
+  },
+  {
+    "name": "楊桃-軟枝密絲",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般楊桃重量約400克"
+  },
+  {
+    "name": "楊桃",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般楊桃重量約400克"
   },
   {
     "name": "楊梅",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "楊梅單顆約100克"
-  },
-  {
-    "name": "滑菇",
     "avgWeightKg": 0.05,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "滑菇小型，單顆約50克"
+    "note": "單顆楊梅約50克"
+  },
+  {
+    "name": "榴槤",
+    "avgWeightKg": 1.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般榴槤重量約1.5公斤"
+  },
+  {
+    "name": "榴槤蜜",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "榴槤蜜可能較小或去皮"
+  },
+  {
+    "name": "榴槤進口",
+    "avgWeightKg": 1.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口榴槤重量約1.3公斤"
+  },
+  {
+    "name": "樹番茄",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆樹番茄約100克"
+  },
+  {
+    "name": "樹豆",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "樹豆約50克，變異大"
+  },
+  {
+    "name": "橄欖",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約2克"
+  },
+  {
+    "name": "檬果-夏雪",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-西施",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-其他品種",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-金蜜",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-聖心",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-金煌",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-黑香金興",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-凱特",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-土檬果",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-玉文",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果-愛文",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檬果",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般檬果約150克"
+  },
+  {
+    "name": "檳榔",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆檳榔約50克"
+  },
+  {
+    "name": "櫻桃",
+    "avgWeightKg": 0.025,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均單顆約25克"
+  },
+  {
+    "name": "櫻桃進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口櫻桃略大約30克"
+  },
+  {
+    "name": "毛木耳",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克（估計）"
+  },
+  {
+    "name": "毛豆",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆毛豆約50克"
+  },
+  {
+    "name": "毛豆進口",
+    "avgWeightKg": 0.06,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口毛豆略大約60克"
+  },
+  {
+    "name": "水合歡",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "水合歡重量變異大約200克"
+  },
+  {
+    "name": "水芹",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約150克"
+  },
+  {
+    "name": "水菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約100克"
+  },
+  {
+    "name": "水蓮",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆水蓮約300克"
+  },
+  {
+    "name": "油柑",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約120克"
+  },
+  {
+    "name": "油江菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約200克（估計）"
+  },
+  {
+    "name": "油菜",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約150克"
+  },
+  {
+    "name": "波羅蜜",
+    "avgWeightKg": 1.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均單顆約1.5公斤"
+  },
+  {
+    "name": "波羅蜜進口",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口波羅蜜約1.2公斤"
+  },
+  {
+    "name": "波羅門蔘",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約500克（估計）"
+  },
+  {
+    "name": "洋菇",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約200克"
+  },
+  {
+    "name": "洋蔥-其它品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "洋蔥-紫洋蔥",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "洋蔥-加州洋蔥",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "洋蔥-進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "洋蔥",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "海帶",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克（估計）"
+  },
+  {
+    "name": "海菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約50克（估計）"
+  },
+  {
+    "name": "滑菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約150克"
+  },
+  {
+    "name": "漿果類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約100克（估計，變異大）"
+  },
+  {
+    "name": "澳洲胡桃",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約35克"
+  },
+  {
+    "name": "無花果",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約50克"
+  },
+  {
+    "name": "燕麥",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perKg",
+    "confidence": "high",
+    "note": "已秤重品，單位為公斤"
+  },
+  {
+    "name": "爪哇橄欖",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約30克（估計）"
+  },
+  {
+    "name": "牛肝菌",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆約200克"
+  },
+  {
+    "name": "牛蒡",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約400克（估計）"
+  },
+  {
+    "name": "牛蒡進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "根據進口牛蒡平均尺寸估計"
+  },
+  {
+    "name": "牧草筍",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "牧草筍尺寸變異大，保守估計"
+  },
+  {
+    "name": "猴頭菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一般市場售賣猴頭菇大小"
+  },
+  {
+    "name": "玉米-白龍王進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-白龍王",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-其他品種進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-硬質玉米進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-糯米白進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-甜軟殼進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-糯米黑進���",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-超甜白進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-甜硬殼進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-白玉米進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-其他品種",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-硬質玉米",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-糯米白",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-甜軟殼",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-糯米黑",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-超甜白",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-甜硬殼",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米-白玉米",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "去殼後平均重量"
+  },
+  {
+    "name": "玉米筍",
+    "avgWeightKg": 0.075,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均玉米筍尺寸"
+  },
+  {
+    "name": "玉米筍進口",
+    "avgWeightKg": 0.085,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口玉米筍稍大"
+  },
+  {
+    "name": "玉米進口",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口玉米一般尺寸"
+  },
+  {
+    "name": "珊瑚菇",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "市場常見珊瑚菇大小"
+  },
+  {
+    "name": "珍珠菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "珍珠菜售賣方式多樣"
+  },
+  {
+    "name": "球莖甘藍",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均球莖甘藍重量"
   },
   {
     "name": "瑞典蕪菁",
     "avgWeightKg": 0.3,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "瑞典蕪菁單顆約300克"
+    "note": "一般瑞典蕪菁尺寸"
   },
   {
-    "name": "腰果",
-    "avgWeightKg": 0.15,
+    "name": "甘蔗筍",
+    "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "腰果單顆約150克（去殼）"
+    "note": "甘蔗筍平均尺寸"
   },
   {
-    "name": "萵苣莖",
-    "avgWeightKg": 0.2,
+    "name": "甘藍-改良尖",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍-其它品種",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍-甘藍心(芽)",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍-紫色甘藍",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍-改良種甘藍",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍-初秋",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甘藍重量"
+  },
+  {
+    "name": "甘藍芽菜",
+    "avgWeightKg": 0.1,
     "weightUnit": "perBundle",
     "confidence": "medium",
-    "note": "萵苣莖約200克/束"
+    "note": "甘藍芽菜售賣方式"
   },
   {
-    "name": "落花生",
+    "name": "甘藍進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口甘藍一般尺寸"
+  },
+  {
+    "name": "甘藷-其他品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甘藷-飼料甘藷",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甘藷-台農66號",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甘藷-芋仔甘藷",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甘藷-台農57號",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甘藷",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甘藷重量"
+  },
+  {
+    "name": "甜椒-其它品種進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-水果彩椒進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-青椒進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-彩色種甜椒進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-新香進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-水果彩椒",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-其它品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-青椒",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-彩色種甜椒",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒-新香",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜椒重量"
+  },
+  {
+    "name": "甜椒進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口甜椒稍大"
+  },
+  {
+    "name": "甜橙-其他品種",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-臍橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-清見橘橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-無酸橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-紅江橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-紅肉柳橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-晚崙西亞",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙-柳橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜橙重量"
+  },
+  {
+    "name": "甜橙進口",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口甜橙一般尺寸"
+  },
+  {
+    "name": "甜瓜-阿露斯洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-其它品種",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-新疆洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-網紋綠肉洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-網紋紅肉洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-網紋白肉洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-光面綠肉洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-光面紅肉洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-光面白肉洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-洋香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-香瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜瓜-洋香瓜進口",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均甜瓜重量"
+  },
+  {
+    "name": "甜菜根",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均甜菜根重量"
+  },
+  {
+    "name": "番木瓜-其他品種",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番木瓜-台農2號",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番木瓜-青木瓜",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番木瓜-日昇種",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番木瓜-紅肉",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番木瓜",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番木瓜重量"
+  },
+  {
+    "name": "番杏",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番杏重量"
+  },
+  {
+    "name": "番石榴-其他品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-紅肉芭",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-水晶無子",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-水晶",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-世紀芭",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-帝王芭",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-紅心芭",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴-珍珠芭",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番石榴",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均番石榴重量"
+  },
+  {
+    "name": "番茄-其它品種",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄-紅慧",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄-牛番茄",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄-豐年2號",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄-粉柿番茄",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄-亞蔬10號",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄-黑柿番茄",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "番茄",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均番茄重量"
+  },
+  {
+    "name": "白木耳",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "白木耳售賣方式多樣"
+  },
+  {
+    "name": "白玉菇",
     "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "落花生單顆約100克（去殼）"
+    "note": "平均白玉菇重量"
+  },
+  {
+    "name": "白靈菇",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均白靈菇重量"
+  },
+  {
+    "name": "白鳳菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約300克"
+  },
+  {
+    "name": "百香果-其他品種",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "百香果-改良種",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "百香果",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "石榴",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約400克"
+  },
+  {
+    "name": "石榴進口",
+    "avgWeightKg": 0.45,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "石蓮花",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "資料少，估計"
+  },
+  {
+    "name": "破布子",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "資料不足"
+  },
+  {
+    "name": "碧玉筍",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單根約150克"
+  },
+  {
+    "name": "神秘果",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約30克"
+  },
+  {
+    "name": "秀珍菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "竹筍-其它品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-箭竹筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-桂竹筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-轎篙筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-孟宗筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-麻竹筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-綠竹筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍-烏殼綠",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約200克"
+  },
+  {
+    "name": "竹筍進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "竹蓀",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "資料不足"
+  },
+  {
+    "name": "粉紅玫瑰菇",
+    "avgWeightKg": 0.04,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約40克"
+  },
+  {
+    "name": "紅毛丹",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約120克"
+  },
+  {
+    "name": "紅毛丹進口",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "紅豆芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約20克"
+  },
+  {
+    "name": "紅鳳菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約300克"
+  },
+  {
+    "name": "紅龍果-其他品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "紅龍果-紅肉",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "紅龍果-白肉",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "紅龍果",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "紅龍果(進口)",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大"
+  },
+  {
+    "name": "紫丁香蘑",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約50克"
+  },
+  {
+    "name": "結球白菜-其它品種",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-山東白",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-大土",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-冬白芽",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-包頭蓮",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-成功白",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-包白",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜-天津白",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約800克"
+  },
+  {
+    "name": "結球白菜進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品較大"
+  },
+  {
+    "name": "絲瓜-稜角絲瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜-長絲瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜-高雄4號",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜-高雄2號",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜-圓筒絲瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約600克"
+  },
+  {
+    "name": "絲瓜進口",
+    "avgWeightKg": 0.8,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品較大"
+  },
+  {
+    "name": "綠豆芽",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "綠豆芽通常成束出售，約50-70克/束"
+  },
+  {
+    "name": "羅勒",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "羅勒通常成小束出售，約20-30克/束"
+  },
+  {
+    "name": "羅望子",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "羅望子單顆重量變異大，估計約150克"
+  },
+  {
+    "name": "羽衣甘藍",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "羽衣甘藍一顆約400克"
+  },
+  {
+    "name": "翼豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "翼豆單顆約100克"
+  },
+  {
+    "name": "胡桃",
+    "avgWeightKg": 0.07,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡桃單顆約70克"
+  },
+  {
+    "name": "胡榛子",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "胡榛子單顆約30克"
+  },
+  {
+    "name": "胡瓜-其它品種",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡瓜-日本種花胡瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡瓜-花胡瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡瓜-改良種胡瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡瓜-黑刺",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡瓜",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡瓜-花胡瓜進口",
+    "avgWeightKg": 0.6,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡瓜一條約600克"
+  },
+  {
+    "name": "胡蘿蔔-其它品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔-白色胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔-紫色胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔-黃金胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔-紅色胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔-橘色胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "胡蘿蔔一條約200克"
+  },
+  {
+    "name": "胡蘿蔔進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口胡蘿蔔可能稍大，約250克"
+  },
+  {
+    "name": "腰果",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "腰果單顆約10克"
+  },
+  {
+    "name": "臺灣藜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "臺灣藜通常成小束出售，估計約50克/束"
+  },
+  {
+    "name": "舞菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "舞菇單顆約150克"
+  },
+  {
+    "name": "芋-其它品種",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋-芋葉柄",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋-里芋",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋-檳榔心芋",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋-麵芋",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芋一顆約300克"
+  },
+  {
+    "name": "芋進口",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口芋可能稍大，約400克"
+  },
+  {
+    "name": "芝麻菜",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "芝麻菜通常成小束出售，約30克/束"
+  },
+  {
+    "name": "芥菜-其它品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜-大心芥菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜-翡翠娃娃菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜-皺葉芥菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜-小葉芥菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜-大葉芥菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜-芥菜心",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥菜一顆約200克"
+  },
+  {
+    "name": "芥藍-其它品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥藍一顆約250克"
+  },
+  {
+    "name": "芥藍-蒲公芥藍",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥藍一顆約250克"
+  },
+  {
+    "name": "芥藍-芥藍苔",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥藍一顆約250克"
+  },
+  {
+    "name": "芥藍-芥藍菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥藍一顆約250克"
+  },
+  {
+    "name": "芥藍",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芥藍一顆約250克"
+  },
+  {
+    "name": "芥藍芽菜",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "芥藍芽菜通常成束出售，約50克/束"
+  },
+  {
+    "name": "芥藍進口",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口芥藍可能稍大，約300克"
+  },
+  {
+    "name": "芫荽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "芫荽通常成小束出售，約20克/束"
+  },
+  {
+    "name": "芫荽進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口芫荽估計約30克/束"
+  },
+  {
+    "name": "芭蕉-其他品種",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芭蕉一顆約150克"
+  },
+  {
+    "name": "芭蕉-紅芭蕉",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芭蕉一顆約150克"
+  },
+  {
+    "name": "芭蕉-旦蕉",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芭蕉一顆約150克"
+  },
+  {
+    "name": "芭蕉",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芭蕉一顆約150克"
+  },
+  {
+    "name": "花椰菜-其它品種",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜-黃色花椰菜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜-紫色花椰菜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜-白梗花椰菜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜-青梗花椰菜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "花椰菜一顆約400克"
+  },
+  {
+    "name": "花椰菜進口",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口花椰菜可能稍大，約500克"
+  },
+  {
+    "name": "花菜類",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "花菜類一顆約300克，變異大"
+  },
+  {
+    "name": "芹菜-其它品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜-西洋芹菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜-山芹菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜-白梗芹菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜-青梗芹菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "芹菜一條約100克"
+  },
+  {
+    "name": "芹菜進口",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口芹菜可能稍大，約150克"
+  },
+  {
+    "name": "芽菜類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "芽菜類通常成束出售，估計約50克/束"
+  },
+  {
+    "name": "苜蓿芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "苜蓿芽通常成小束出售，約20克/束"
+  },
+  {
+    "name": "苦瓜-其它品種",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜-翠綠苦瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜-山苦瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜-青色苦瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜-白色苦瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約30-40cm"
+  },
+  {
+    "name": "苦瓜進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "苦苣",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-30棗"
+  },
+  {
+    "name": "茄子-其它品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茄子-日本圓茄",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茄子-麻芝茄",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茄子-稼穡長茄",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茄子-胭脂茄",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茄子",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "常見市場尺寸"
+  },
+  {
+    "name": "茭白筍",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "去皮後重量"
+  },
+  {
+    "name": "茭白筍進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能較細"
+  },
+  {
+    "name": "茴香",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "茶樹菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "茼蒿",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約15-20棗"
+  },
+  {
+    "name": "草莓",
+    "avgWeightKg": 0.015,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "草莓進口",
+    "avgWeightKg": 0.012,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能較小"
+  },
+  {
+    "name": "草菇",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "荔枝-其他品種",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝-桂味",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝-竹葉黑",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝-糯米",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝-黑葉",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝-玉荷包",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "荔枝進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "荸薺",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "莖菜類",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-30棗"
+  },
+  {
+    "name": "莧菜-其它品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約25-35棗"
+  },
+  {
+    "name": "莧菜-白莧菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約25-35棗"
+  },
+  {
+    "name": "莧菜-紅莧菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約25-35棗"
+  },
+  {
+    "name": "莧菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約25-35棗"
+  },
+  {
+    "name": "莧菜-紅莧菜進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約25-35棗"
+  },
+  {
+    "name": "菇蕈類",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "菊芋",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "菜心",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "菜豆-其它品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-花豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-大福豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-海軍豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-醜豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-紅色菜豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-青色菜豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆-白色菜豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "菜豆進口",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口品可能較細"
+  },
+  {
+    "name": "菠菜-其它品種",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-25棗"
+  },
+  {
+    "name": "菠菜-角葉菠菜",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-25棗"
+  },
+  {
+    "name": "菠菜-圓葉菠菜",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-25棗"
+  },
+  {
+    "name": "菠菜",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約20-25棗"
+  },
+  {
+    "name": "菠菜進口",
+    "avgWeightKg": 0.015,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口品可能較細"
+  },
+  {
+    "name": "菱角",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單顆重量"
+  },
+  {
+    "name": "菾菜",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約18-22棗"
+  },
+  {
+    "name": "萊豆",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約10-15棗"
+  },
+  {
+    "name": "萵苣-廣東菜進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-不結球萵苣進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-蘿美進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-半結球萵苣進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-結球萵苣進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-紅捲綠捲進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-其它品種進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-油麥菜進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-本島尖葉萵苣進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-本島圓葉萵苣進口",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-紅捲綠捲",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-其它品種",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-油麥菜",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-本島尖葉萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-本島圓葉萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-廣東菜",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-不結球萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-蘿美",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-半結球萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣-結球萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣",
+    "avgWeightKg": 0.035,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆平均重量"
+  },
+  {
+    "name": "萵苣莖",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均單莖重量"
+  },
+  {
+    "name": "萵苣進口",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能較小"
+  },
+  {
+    "name": "落花生",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "通常一顆約5克"
   },
   {
     "name": "落花生芽菜",
     "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "落花生芽菜約20克/束"
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "芽菜較小，估計約2克"
   },
   {
-    "name": "葉用甘藷",
+    "name": "落葵-其它品種",
     "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "葉用甘藷單顆約200克"
+    "note": "一顆約200克"
+  },
+  {
+    "name": "落葵-大葉落葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約200克"
+  },
+  {
+    "name": "落葵-小葉落葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約200克"
+  },
+  {
+    "name": "落葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約200克"
+  },
+  {
+    "name": "葉用甘藷",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約300克"
   },
   {
     "name": "葉用蘿蔔",
     "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "葉用蘿蔔單顆約150克"
+    "note": "一顆約150克"
+  },
+  {
+    "name": "葡萄-其他品種",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-蜜紅",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-春峰",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-無子",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-黑后",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-金香",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-義大利",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-巨峰",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄-無子進口",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約1克"
+  },
+  {
+    "name": "葡萄柚-其他品種",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約500克"
+  },
+  {
+    "name": "葡萄柚-無酸柚",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約500克"
+  },
+  {
+    "name": "葡萄柚-白肉",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約500克"
+  },
+  {
+    "name": "葡萄柚-紅寶石",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約500克"
+  },
+  {
+    "name": "葡萄柚-紅肉",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一顆約500克"
   },
   {
     "name": "葡萄柚",
-    "avgWeightKg": 0.6,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "葡萄柚單顆約600克"
-  },
-  {
-    "name": "過溝菜蕨",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "台灣市場常見過溝菜蕨單株重量約50克"
-  },
-  {
-    "name": "酪梨-哈斯",
-    "avgWeightKg": 0.25,
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "哈斯酪梨平均重量約250克"
+    "note": "一顆約500克"
   },
   {
-    "name": "慈菇",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "慈菇單個平均重量約150克"
-  },
-  {
-    "name": "鳳梨-黃金",
-    "avgWeightKg": 1.2,
+    "name": "葡萄柚-白肉進口",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "黃金鳳梨平均重量約1.2公斤"
+    "note": "一顆約500克"
   },
   {
-    "name": "蔥-粉蔥",
-    "avgWeightKg": 0.08,
+    "name": "葡萄柚-紅肉進口",
+    "avgWeightKg": 0.5,
     "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "粉蔥單根重量估計約80克，變異較大"
+    "confidence": "high",
+    "note": "一顆約500克"
+  },
+  {
+    "name": "葡萄進口",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "與本地葡萄類似"
+  },
+  {
+    "name": "蒜頭-其它品種",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約3克"
+  },
+  {
+    "name": "蒜頭-蒜瓣",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約3克"
+  },
+  {
+    "name": "蒜頭-蒜仁",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約3克"
+  },
+  {
+    "name": "蒜頭",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約3克"
+  },
+  {
+    "name": "蓮-其它品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約200克"
+  },
+  {
+    "name": "蓮-蓮子",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約200克"
   },
   {
     "name": "蓮-蓮藕",
-    "avgWeightKg": 0.4,
+    "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "單個蓮藕平均重量約400克"
+    "note": "一顆約200克"
   },
   {
-    "name": "辣椒-雞心辣椒",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "雞心辣椒單個重量約10克"
-  },
-  {
-    "name": "寬皮柑-砂糖橘",
-    "avgWeightKg": 0.12,
+    "name": "蓮-蓮藕進口",
+    "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "砂糖橘單個平均重量約120克"
+    "note": "一顆約200克"
+  },
+  {
+    "name": "蓮",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一顆約200克"
+  },
+  {
+    "name": "蓮霧-其他品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "較小，估計約100克"
   },
   {
     "name": "蓮霧-黑金剛",
-    "avgWeightKg": 0.18,
-    "weightUnit": "perPiece",
-    "confidence": "low",
-    "note": "黑金剛蓮霧重量估計約180克，資料有限"
-  },
-  {
-    "name": "蝦夷蔥",
     "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "low",
-    "note": "蝦夷蔥單根重量估計約100克，資料不足"
+    "note": "較小，估計約100克"
   },
   {
-    "name": "豌豆-其它品種進口",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設小型豌豆"
-  },
-  {
-    "name": "豌豆-甜豌豆進口",
-    "avgWeightKg": 0.07,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "比一般豌豆稍大"
-  },
-  {
-    "name": "豌豆-紅花豌豆進口",
-    "avgWeightKg": 0.06,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "類似一般豌豆大小"
-  },
-  {
-    "name": "豌豆-白花豌豆進口",
-    "avgWeightKg": 0.06,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "類似一般豌豆大小"
-  },
-  {
-    "name": "豌豆-甜豌豆",
-    "avgWeightKg": 0.07,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "比一般豌豆稍大"
-  },
-  {
-    "name": "豌豆-紅花豌豆",
-    "avgWeightKg": 0.06,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "類似一般豌豆大小"
-  },
-  {
-    "name": "豌豆-白花豌豆",
-    "avgWeightKg": 0.06,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "類似一般豌豆大小"
-  },
-  {
-    "name": "豌豆芽菜",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "通常一把約20克"
-  },
-  {
-    "name": "豌豆芽菜進口",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "類似國產豌豆芽菜"
-  },
-  {
-    "name": "髮菜",
+    "name": "蓮霧-黑糖芭比",
     "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "一把約100克"
-  },
-  {
-    "name": "學菜",
-    "avgWeightKg": 0.15,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型學菜"
+    "confidence": "low",
+    "note": "較小，估計約100克"
   },
   {
-    "name": "樹豆",
-    "avgWeightKg": 0.2,
+    "name": "蓮霧-巴掌蓮霧",
+    "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型樹豆"
+    "confidence": "low",
+    "note": "較小，估計約100克"
   },
   {
-    "name": "樹番茄",
-    "avgWeightKg": 0.25,
+    "name": "蓮霧-翠玉",
+    "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型樹番茄"
+    "confidence": "low",
+    "note": "較小，估計約100克"
   },
   {
-    "name": "橄欖",
-    "avgWeightKg": 0.01,
+    "name": "蓮霧-子彈型",
+    "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個橄欖約10克"
+    "confidence": "low",
+    "note": "較小，估計約100克"
   },
   {
-    "name": "澳洲胡桃",
+    "name": "蓮霧-紅蓮霧",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "較小，估計約100克"
+  },
+  {
+    "name": "蓮霧",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "較小，估計約100克"
+  },
+  {
+    "name": "蔥-其它品種",
     "avgWeightKg": 0.05,
     "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "單個約50克"
+    "confidence": "medium",
+    "note": "一根約5克"
   },
   {
-    "name": "蕎麥芽菜",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "類似其他芽菜"
+    "name": "蔥-粉蔥",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一根約5克"
+  },
+  {
+    "name": "蔥-大蔥",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一根約5克"
+  },
+  {
+    "name": "蔥-北蔥",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一根約5克"
+  },
+  {
+    "name": "蔥-日蔥",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一根約5克"
+  },
+  {
+    "name": "蔥",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一根約5克"
+  },
+  {
+    "name": "蔥進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "與本地蔥類似"
   },
   {
     "name": "蕎頭",
-    "avgWeightKg": 0.1,
+    "avgWeightKg": 0.02,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型蕎頭"
+    "confidence": "low",
+    "note": "較小，估計約2克"
   },
   {
-    "name": "錫蘭橄欖",
+    "name": "蕎麥",
     "avgWeightKg": 0.01,
     "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "類似一般橄欖"
+    "confidence": "low",
+    "note": "一顆約1克"
   },
   {
-    "name": "鮑魚菇",
-    "avgWeightKg": 0.2,
+    "name": "蕎麥芽菜",
+    "avgWeightKg": 0.005,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型鮑魚菇"
+    "confidence": "low",
+    "note": "芽菜非常小"
   },
   {
-    "name": "龍眼-其他品種",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設小型龍眼"
-  },
-  {
-    "name": "龍眼-粉殼",
-    "avgWeightKg": 0.18,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "比一般龍眼稍大"
-  },
-  {
-    "name": "龍眼-十月眼",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型龍眼"
-  },
-  {
-    "name": "龍葵",
-    "avgWeightKg": 0.3,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型龍葵"
-  },
-  {
-    "name": "龍鳳草",
+    "name": "薏苡",
     "avgWeightKg": 0.05,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "通常一把約50克"
-  },
-  {
-    "name": "龍鬚菜",
-    "avgWeightKg": 0.1,
-    "weightUnit": "perBundle",
-    "confidence": "high",
-    "note": "一把約100克"
-  },
-  {
-    "name": "翼豆",
-    "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設中型翼豆"
-  },
-  {
-    "name": "蕹菜-其它品種",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設小型蕹菜"
-  },
-  {
-    "name": "蕹菜-水蕹菜",
-    "avgWeightKg": 0.2,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "比一般蕹菜大"
-  },
-  {
-    "name": "蕹菜-竹葉蕹菜",
-    "avgWeightKg": 0.18,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "類似一般蕹菜"
-  },
-  {
-    "name": "蕹菜-小葉蕹菜",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設小型蕹菜"
-  },
-  {
-    "name": "蕹菜-大葉蕹菜",
-    "avgWeightKg": 0.25,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "比一般蕹菜大"
+    "note": "一顆約5克"
   },
   {
     "name": "薑-竹薑",
-    "avgWeightKg": 0.15,
+    "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設小型竹薑"
+    "note": "一塊約100克"
+  },
+  {
+    "name": "薑-其它品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一塊約100克"
+  },
+  {
+    "name": "薑-粉薑",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一塊約100克"
   },
   {
     "name": "薑-嫩薑",
     "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設小型嫩薑"
+    "note": "一塊約100克"
   },
   {
     "name": "薑-老薑",
-    "avgWeightKg": 0.25,
+    "avgWeightKg": 0.1,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "比一般薑大"
+    "note": "一塊約100克"
+  },
+  {
+    "name": "薑",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一塊約100克"
+  },
+  {
+    "name": "薑進口",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "與本地薑類似"
   },
   {
     "name": "薯蕷-其他品種",
     "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設中型薯蕷"
+    "note": "一顆約200克"
   },
   {
     "name": "薯蕷-紅薯蕷",
-    "avgWeightKg": 0.25,
+    "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "比一般薯蕷大"
+    "note": "一顆約200克"
   },
   {
     "name": "薯蕷-白薯蕷",
     "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "類似一般薯蕷"
+    "note": "一顆約200克"
   },
   {
-    "name": "闊苞菊",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設中型闊苞菊"
-  },
-  {
-    "name": "鴻喜菇",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，實際可能因品種和成熟度而異"
-  },
-  {
-    "name": "檳榔",
-    "avgWeightKg": 0.05,
-    "weightUnit": "perPiece",
-    "confidence": "high",
-    "note": "一般檳榔單顆重量"
-  },
-  {
-    "name": "薺菜",
+    "name": "薯蕷",
     "avgWeightKg": 0.2,
-    "weightUnit": "perBundle",
+    "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "假設一把約200克，可能因束大小而異"
+    "note": "一顆約200克"
+  },
+  {
+    "name": "薯蕷進口",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "與本地薯蕷類似"
   },
   {
     "name": "藍莓",
-    "avgWeightKg": 0.01,
+    "avgWeightKg": 0.005,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "單顆藍莓非常輕，數量多時才會有感"
+    "note": "一顆約0.5克"
   },
   {
     "name": "藍莓進口",
-    "avgWeightKg": 0.01,
+    "avgWeightKg": 0.005,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "同本地藍莓，重量不大不同"
+    "note": "與本地藍莓類似"
   },
   {
-    "name": "雞肉絲菇",
-    "avgWeightKg": 0.1,
+    "name": "藤三七",
+    "avgWeightKg": 0.01,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小，實際可能有所不同"
+    "confidence": "low",
+    "note": "估計約1克"
   },
   {
-    "name": "雞腿菇",
+    "name": "蘆筍-其它品種",
     "avgWeightKg": 0.2,
     "weightUnit": "perPiece",
     "confidence": "medium",
-    "note": "比雞肉絲菇稍大"
+    "note": "平均長約20-30cm，直徑約2-3cm"
   },
   {
-    "name": "羅勒",
-    "avgWeightKg": 0.005,
-    "weightUnit": "perBundle",
+    "name": "蘆筍-蘆筍花",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約20-30cm，直徑約2-3cm"
+  },
+  {
+    "name": "蘆筍-台南4號",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約20-30cm，直徑約2-3cm"
+  },
+  {
+    "name": "蘆筍-綠蘆筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約20-30cm，直徑約2-3cm"
+  },
+  {
+    "name": "蘆筍-白蘆筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約20-30cm，直徑約2-3cm"
+  },
+  {
+    "name": "蘆筍",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "平均長約20-30cm，直徑約2-3cm"
+  },
+  {
+    "name": "蘆筍進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
     "confidence": "low",
-    "note": "非常輕，主要按束計算"
-  },
-  {
-    "name": "羅望子",
-    "avgWeightKg": 0.03,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小"
-  },
-  {
-    "name": "鵲豆",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小"
-  },
-  {
-    "name": "糯米糰",
-    "avgWeightKg": 0.15,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小的糯米糰"
+    "note": "進口品可能略大於國產"
   },
   {
     "name": "蘋婆",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "小型水果，直徑約5-7cm"
+  },
+  {
+    "name": "蘋果-其他品種進口",
     "avgWeightKg": 0.25,
     "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小"
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
   },
   {
-    "name": "蠔菇",
-    "avgWeightKg": 0.12,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小"
-  },
-  {
-    "name": "麵包果",
-    "avgWeightKg": 0.4,
-    "weightUnit": "perPiece",
-    "confidence": "medium",
-    "note": "假設平均大小"
-  },
-  {
-    "name": "櫻桃",
-    "avgWeightKg": 0.015,
+    "name": "蘋果-其他品種",
+    "avgWeightKg": 0.25,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "單顆櫻桃非常輕"
+    "note": "平均大小，國產與進口差異不大"
   },
   {
-    "name": "櫻桃進口",
-    "avgWeightKg": 0.015,
+    "name": "蘋果-津輕",
+    "avgWeightKg": 0.25,
     "weightUnit": "perPiece",
     "confidence": "high",
-    "note": "同本地櫻桃"
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-青龍",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-蜜蘋果",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-陸奧進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-陸奧",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-富士進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-富士",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-紅玉進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-紅玉",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-金冠進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-金冠",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-惠進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-惠",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-秋香進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-秋香",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-五爪進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果-五爪",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
+  },
+  {
+    "name": "蘋果",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均大小，國產與進口差異不大"
   },
   {
     "name": "蘘荷",
-    "avgWeightKg": 0.01,
-    "weightUnit": "perPiece",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
     "confidence": "low",
-    "note": "非常輕，主要按數量或重量計算"
+    "note": "葉菜，束重估計"
+  },
+  {
+    "name": "蘿蔔-其它品種",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-櫻桃蘿蔔",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-白玉",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-梅花",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-青色",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-矸仔",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-椿仔",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
+  },
+  {
+    "name": "蘿蔔-其它品種進口",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型蘿蔔，長約15-20cm"
   },
   {
     "name": "蘿蔔芽菜",
-    "avgWeightKg": 0.1,
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "小型芽菜"
+  },
+  {
+    "name": "蛇瓜",
+    "avgWeightKg": 0.4,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型瓜類，長約20-25cm"
+  },
+  {
+    "name": "蛋黃果",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型水果，直徑約6-8cm"
+  },
+  {
+    "name": "蝦夷蔥",
+    "avgWeightKg": 0.2,
     "weightUnit": "perBundle",
     "confidence": "medium",
-    "note": "假設一把約100克"
+    "note": "根莖類，束重估計"
+  },
+  {
+    "name": "蠔菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型菇類，直徑約5-7cm"
   },
   {
     "name": "蠶豆",
-    "avgWeightKg": 0.02,
-    "weightUnit": "perPiece",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
     "confidence": "medium",
-    "note": "假設平均大小"
+    "note": "豆類，束重估計"
   },
   {
-    "name": "蠶豆芽",
+    "name": "蠶豆芽菜",
+    "avgWeightKg": 0.03,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型芽菜"
+  },
+  {
+    "name": "西印度櫻桃",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型水果，直徑約3-5cm"
+  },
+  {
+    "name": "西洋菜",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "葉菜，束重估計"
+  },
+  {
+    "name": "西瓜-甜美人",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-瓜子瓜",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-秀鈴",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-紅肉西瓜",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-黃肉西瓜",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-鳳光",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-黑美人",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-無子西瓜",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-大西瓜",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜-其它品種",
+    "avgWeightKg": 4,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型西瓜，直徑約25-30cm"
+  },
+  {
+    "name": "西瓜進口",
+    "avgWeightKg": 3.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能略小於國產"
+  },
+  {
+    "name": "豆菜類",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "類別廣泛，估計值參考"
+  },
+  {
+    "name": "豆薯",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型根莖"
+  },
+  {
+    "name": "豆類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "類別廣泛，估計值參考"
+  },
+  {
+    "name": "豇豆",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型豆類"
+  },
+  {
+    "name": "豌豆-其它品種進口",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-甜豌豆進口",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-紅花豌豆進口",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-白花豌豆進口",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-其它品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-甜豌豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-紅花豌豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆-白花豌豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "豆類，束重估計"
+  },
+  {
+    "name": "豌豆芽菜",
+    "avgWeightKg": 0.04,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型芽菜"
+  },
+  {
+    "name": "豌豆芽菜進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "進口品可能略大於國產"
+  },
+  {
+    "name": "豌豆進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口品估計"
+  },
+  {
+    "name": "越瓜-其它品種",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型瓜類"
+  },
+  {
+    "name": "越瓜-白色越瓜",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型瓜類"
+  },
+  {
+    "name": "越瓜-青色越瓜",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型瓜類"
+  },
+  {
+    "name": "越瓜",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型瓜類"
+  },
+  {
+    "name": "辣根",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型根莖"
+  },
+  {
+    "name": "辣椒-其它品種進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-糯米椒進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-青龍辣椒進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-朝天椒進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-雞心辣椒進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-青小進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-紅小進口",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-其它品種",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-糯米椒",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-青龍辣椒",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-朝天椒",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-雞心辣椒",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-青小",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒-紅小",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小型辣椒，長約10-15cm"
+  },
+  {
+    "name": "辣椒進口",
+    "avgWeightKg": 0.06,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能略大於國產"
+  },
+  {
+    "name": "過溝菜蕨",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "葉菜，束重估計"
+  },
+  {
+    "name": "酒杯菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一般單顆約5克"
+  },
+  {
+    "name": "酪梨-其他品種",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-哈斯",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-平克頓",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-秋可",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-厚兒",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-台農1號",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-十月紅",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-紅嬌",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-嘉選3號",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-清進2號",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨-清進1號",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "平均中型約300克"
+  },
+  {
+    "name": "酪梨進口",
+    "avgWeightKg": 0.35,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品稍大約350克"
+  },
+  {
+    "name": "釋迦-鳳梨釋迦",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "釋迦-土釋迦",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "釋迦-大目種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "釋迦",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "釋迦-其他品種",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "金柑與小果柑橘-其他品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-美女桔",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-台灣香檬",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-四季桔",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-酸橘",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-黃水晶",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-寧波金柑",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-長壽金柑",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-圓實金柑",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘-長實金柑",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金柑與小果柑橘",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "小果約100克"
+  },
+  {
+    "name": "金福菇",
+    "avgWeightKg": 0.07,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約7克"
+  },
+  {
+    "name": "金耳",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單片約15克"
+  },
+  {
+    "name": "金針花",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約2克（估計）"
+  },
+  {
+    "name": "金針花進口",
+    "avgWeightKg": 0.025,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "進口一把約2.5克（估計）"
+  },
+  {
+    "name": "金針菇",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約5克"
+  },
+  {
+    "name": "錫蘭橄欖",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單顆約1克"
+  },
+  {
+    "name": "長山核桃",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約12克"
+  },
+  {
+    "name": "闊苞菊",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約200克"
+  },
+  {
+    "name": "闊葉大豆",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "一把約100克（估計）"
+  },
+  {
+    "name": "隼人瓜",
+    "avgWeightKg": 0.5,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約500克"
+  },
+  {
+    "name": "雞肉絲菇",
+    "avgWeightKg": 0.08,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約8克"
+  },
+  {
+    "name": "雞腿菇",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約10克"
+  },
+  {
+    "name": "雪蓮薯",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約250克"
+  },
+  {
+    "name": "雲芝",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約15克"
+  },
+  {
+    "name": "靈芝",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單顆約5克（估計）"
+  },
+  {
+    "name": "青油菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約300克"
+  },
+  {
+    "name": "青花菜-其它品種",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約250克"
+  },
+  {
+    "name": "青花菜-青花筍",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約250克"
+  },
+  {
+    "name": "青花菜-青花苔",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約250克"
+  },
+  {
+    "name": "青花菜",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約250克"
+  },
+  {
+    "name": "青花菜-青花苔進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約250克"
+  },
+  {
+    "name": "青花菜芽菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約200克"
+  },
+  {
+    "name": "青菘菜",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約200克"
+  },
+  {
+    "name": "韭菜-其它品種",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭菜-大葉韭菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭菜-韭黃",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭菜-韭菜花",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭菜-青頭韭菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭菜-白頭韭菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭菜",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約100克"
+  },
+  {
+    "name": "韭蔥",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "單根約150克"
+  },
+  {
+    "name": "食用大黃",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約200克"
+  },
+  {
+    "name": "食用百合",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "單顆約100克"
+  },
+  {
+    "name": "食用薊",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約250克"
+  },
+  {
+    "name": "食茱萸",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "小型水果，平均約50克"
+  },
+  {
+    "name": "香瓜茄",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般單果重約200克"
+  },
+  {
+    "name": "香芹菜",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perBundle",
+    "confidence": "high",
+    "note": "一把約300克"
+  },
+  {
+    "name": "香芹菜進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "香菇",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "乾香菇約10克，新鮮約100克"
+  },
+  {
+    "name": "香蕉",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般香蕉約120克"
+  },
+  {
+    "name": "馬鈴薯",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "中型馬鈴薯約200克"
+  },
+  {
+    "name": "馬鈴薯進口",
+    "avgWeightKg": 0.25,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能有差異"
+  },
+  {
+    "name": "馬齒莧",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型莧菜，估計約10克"
+  },
+  {
+    "name": "高粱-其他品種",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單穗重量變異大"
+  },
+  {
+    "name": "高粱-芻料高粱",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單穗重量變異大"
+  },
+  {
+    "name": "高粱",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "單穗重量變異大"
+  },
+  {
+    "name": "髮菜",
     "avgWeightKg": 0.005,
     "weightUnit": "perBundle",
     "confidence": "low",
-    "note": "非常輕，主要按束計算"
+    "note": "極輕，估計約5克一把"
+  },
+  {
+    "name": "鮑魚菇",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型菇類約150克"
+  },
+  {
+    "name": "鱗莖類",
+    "avgWeightKg": 0.1,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "變異大，估計約100克"
+  },
+  {
+    "name": "鳳梨-其他品種",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-黃金",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-甜蜜蜜",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-牛奶",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-蘋果",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-金鑽",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-開英",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨-香水",
+    "avgWeightKg": 1.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般鳳梨約1.2公斤"
+  },
+  {
+    "name": "鳳梨進口",
+    "avgWeightKg": 1,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口鳳梨可能小"
+  },
+  {
+    "name": "鴻喜菇",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型菇類約200克"
+  },
+  {
+    "name": "鵲豆",
+    "avgWeightKg": 0.005,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "極輕，估計約5克一把"
+  },
+  {
+    "name": "麵包果",
+    "avgWeightKg": 0.3,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型果實約300克"
+  },
+  {
+    "name": "麻意",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型莖菜，估計約10克"
+  },
+  {
+    "name": "黃秋葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般秋葵約200克"
+  },
+  {
+    "name": "黃秋葵進口",
+    "avgWeightKg": 0.18,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "黃藤心",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "low",
+    "note": "小型莖菜，估計約50克"
+  },
+  {
+    "name": "黃豆芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約20克"
+  },
+  {
+    "name": "黃金果",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型果實約150克"
+  },
+  {
+    "name": "黑木耳",
+    "avgWeightKg": 0.05,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "乾木耳約5克，新鮮約50克"
+  },
+  {
+    "name": "黑豆芽",
+    "avgWeightKg": 0.02,
+    "weightUnit": "perBundle",
+    "confidence": "medium",
+    "note": "一把約20克"
+  },
+  {
+    "name": "龍眼-其他品種",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般龍眼約150克"
+  },
+  {
+    "name": "龍眼-粉殼",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般龍眼約150克"
+  },
+  {
+    "name": "龍眼-十月眼",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般龍眼約150克"
+  },
+  {
+    "name": "龍眼",
+    "avgWeightKg": 0.15,
+    "weightUnit": "perPiece",
+    "confidence": "high",
+    "note": "一般龍眼約150克"
+  },
+  {
+    "name": "龍眼進口",
+    "avgWeightKg": 0.12,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "進口品可能略小"
+  },
+  {
+    "name": "龍葵",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "中型葵花約200克"
+  },
+  {
+    "name": "龍鬚菜",
+    "avgWeightKg": 0.01,
+    "weightUnit": "perBundle",
+    "confidence": "low",
+    "note": "極輕，估計約10克一把"
+  },
+  {
+    "name": "龍鳳草",
+    "avgWeightKg": 0.2,
+    "weightUnit": "perPiece",
+    "confidence": "medium",
+    "note": "一般單株重量約 200 克"
   }
 ]
