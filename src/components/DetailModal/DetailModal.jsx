@@ -15,7 +15,7 @@ const MARKET_KEY = {
 };
 const PREFERRED_DISPLAY = ['台北', '台中', '高雄'];
 
-export default function DetailModal({ crop, rawData, onClose, favorites, onToggleFavorite }) {
+export default function DetailModal({ crop, rawData, onClose, favorites, onToggleFavorite, cardType = 'main' }) {
   const [weightInfo, setWeightInfo] = useState(null);
   const [seasonStatus, setSeasonStatus] = useState(null);
   const [seasonData, setSeasonData] = useState(null);
@@ -26,6 +26,10 @@ export default function DetailModal({ crop, rawData, onClose, favorites, onToggl
 
   const avg = crop.avgPrice;
   const mainName = crop.mainName;
+  // variant 卡時 displayName = variant 名稱；main 卡時為 undefined
+  const displayName = crop.displayName || mainName;
+  // CropIcon 永遠用 original mainName（variant 卡透過 iconName prop 傳入）
+  const iconName = crop.iconName || mainName;
 
   // 鎖住背景滾動
   useEffect(() => {
@@ -36,16 +40,25 @@ export default function DetailModal({ crop, rawData, onClose, favorites, onToggl
 
   useEffect(() => {
     if (mainName) {
-      getCropWeight(mainName).then(setWeightInfo);
+      // 重量：variant 卡傳 variant 名稱（per-unit 正確），main 卡傳 mainName
+      getCropWeight(displayName).then(setWeightInfo);
+      // 產季：永遠傳 original mainName（不因 variant 改變）
       getSeasonStatus(mainName).then(setSeasonStatus);
       getCropSeason(mainName).then(setSeasonData);
     }
-  }, [mainName]);
+  }, [mainName, displayName]);
 
-  // 30 天趨勢
+  // 30 天趨勢：variant 卡只看該 variant 的趨勢
   const trendMap = {};
   for (const r of rawData) {
-    if (splitMarketName(r.作物名稱 || '').main !== mainName) continue;
+    const rMain = splitMarketName(r.作物名稱 || '').main;
+    if (cardType === 'variant') {
+      // variant 卡：只要 cropName 完全等於 variant 名稱
+      if (r.作物名稱 !== displayName) continue;
+    } else {
+      // main 卡：只看 mainName（不含 variant）
+      if (rMain !== mainName) continue;
+    }
     const d = r.交易日期;
     if (!trendMap[d]) trendMap[d] = [];
     const p = parseFloat(r.平均價);
@@ -138,7 +151,7 @@ export default function DetailModal({ crop, rawData, onClose, favorites, onToggl
 
         <div className="sheet-header">
           <div className="detail-title-row">
-            <h3 className="sheet-title">{mainName}</h3>
+            <h3 className="sheet-title">{displayName}</h3>
             {crop.plv2_name && (
               <span className="plv2-tag" data-cat={crop.plv2 || ''}>
                 {crop.plv2_name}
@@ -186,7 +199,7 @@ export default function DetailModal({ crop, rawData, onClose, favorites, onToggl
         {/* 均價 Summary */}
         <div className="summary-card">
           <div className="summary-icon">
-            <CropIcon name={mainName} size={64} charSize={26} />
+            <CropIcon name={iconName} size={64} charSize={26} />
           </div>
           <div className="summary-body">
             <span className="summary-label">北中南均價</span>
@@ -218,8 +231,8 @@ export default function DetailModal({ crop, rawData, onClose, favorites, onToggl
           ))}
         </div>
 
-        {/* 品種明細表 */}
-        {variantRows.length > 1 && (
+        {/* 品種明細表（variant 卡本身不顯示） */}
+        {cardType !== 'variant' && variantRows.length > 1 && (
           <>
             <h4 className="section-title">品種明細（{variantRows.length} 種）</h4>
             <div className="variant-table">

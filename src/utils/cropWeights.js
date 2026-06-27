@@ -41,7 +41,24 @@ async function loadWeights() {
  */
 export async function getCropWeight(cropName) {
   const weights = await loadWeights();
-  return weights[cropName] || null;
+
+  // 1. 精確命中
+  if (weights[cropName]) return weights[cropName];
+
+  // 2. 去除重複後綴：catalog 可能寫「西瓜-黃肉西瓜」，市場資料是「西瓜-黃肉」
+  const dashIdx = cropName.lastIndexOf('-');
+  if (dashIdx > 0) {
+    const main = cropName.slice(0, dashIdx);        // 西瓜
+    const variant = cropName.slice(dashIdx + 1);    // 黃肉
+    const dedup = `${main}-${variant}${variant}`;   // 西瓜-黃肉西瓜
+    if (weights[dedup]) return weights[dedup];
+  }
+
+  // 3. 只留主名稱（去除所有變體）
+  const mainOnly = cropName.split(/[-–\/]/)[0].trim();
+  if (mainOnly && mainOnly !== cropName && weights[mainOnly]) return weights[mainOnly];
+
+  return null;
 }
 
 /**

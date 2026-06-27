@@ -2,10 +2,11 @@ import { useState, useEffect } from 'react';
 import { getCropWeight } from '../../utils/cropWeights';
 import CropIcon from '../CropIcon/CropIcon';
 
-export default function ProductCard({ crop, onOpenDetail }) {
+export default function ProductCard({ crop, displayName: propDisplayName, cardType, onOpenDetail }) {
   const [weightInfo, setWeightInfo] = useState(null);
+  // 優先用 propDisplayName（variant 卡），否則用 crop.mainName（main 卡）
+  const displayName = propDisplayName || crop.mainName;
   const avg = crop.avgPrice;
-  const displayName = crop.mainName;
 
   useEffect(() => {
     let cancelled = false;
@@ -26,7 +27,7 @@ export default function ProductCard({ crop, onOpenDetail }) {
 
   return (
     <article className="product-card" onClick={onOpenDetail}>
-      <CropIcon name={displayName} />
+      <CropIcon name={crop.mainName} />
 
       <div className="crop-body">
         <div className="crop-name-row">

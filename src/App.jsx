@@ -57,12 +57,51 @@ export default function App() {
 
   const crops = useMemo(() => aggregatePrices(rawData, catalog), [rawData, catalog]);
 
-  const filtered = useMemo(() => {
+  // 展開為主品項卡 + 變體卡清單
+  const allCards = useMemo(() => {
     const base = filterCrops(crops, { category, query, favorites });
-    return [...base].sort((a, b) => {
-      const countA = Object.values(a.markets || {}).filter((m) => m?.avg != null).length;
-      const countB = Object.values(b.markets || {}).filter((m) => m?.avg != null).length;
-      return countB - countA;
+    const cards = [];
+
+    for (const crop of base) {
+      // 主品項卡（與現在相同）
+      cards.push({
+        key: crop.mainName,
+        cardType: 'main',
+        displayName: crop.mainName,
+        crop,
+      });
+
+      // 變體卡（每個 variant 各一張，跳過與 mainName 同名的）
+      for (const variantName of crop.variants || []) {
+        if (variantName === crop.mainName) continue; // 避免與 main 卡 key 重複
+        const vm = crop.variantMarkets?.[variantName] || {};
+        const marketAvgs = Object.values(vm).filter((m) => m?.avg != null);
+        const avgPrice = marketAvgs.length > 0
+          ? parseFloat((marketAvgs.reduce((s, m) => s + m.avg, 0) / marketAvgs.length).toFixed(1))
+          : 0;
+
+        cards.push({
+          key: variantName,
+          cardType: 'variant',
+          displayName: variantName,
+          mainName: crop.mainName,
+          avgPrice,
+          markets: vm,
+          plv2: crop.plv2,
+          plv2_name: crop.plv2_name,
+          plv1: crop.plv1,
+          plv1_name: crop.plv1_name,
+        });
+      }
+    }
+
+    // 排序：市場越多越前面；同市場數 main 先於 variant
+    return cards.sort((a, b) => {
+      const countA = Object.values(a.markets || a.crop?.markets || {}).filter((m) => m?.avg != null).length;
+      const countB = Object.values(b.markets || b.crop?.markets || {}).filter((m) => m?.avg != null).length;
+      if (countB !== countA) return countB - countA;
+      if (a.cardType !== b.cardType) return a.cardType === 'main' ? -1 : 1;
+      return a.displayName.localeCompare(b.displayName);
     });
   }, [crops, category, query, favorites]);
 
@@ -90,16 +129,18 @@ export default function App() {
           </div>
         )}
         {error && <div className="error-banner">載入失敗：{error}</div>}
-        {!loading && !error && filtered.length === 0 && (
+        {!loading && !error && allCards.length === 0 && (
           <div className="no-results">
             <p>找不到符合的商品</p>
           </div>
         )}
-        {!loading && !error && filtered.map((crop) => (
+        {!loading && !error && allCards.map((card) => (
           <ProductCard
-            key={crop.mainName}
-            crop={crop}
-            onOpenDetail={() => setDetailCrop(crop)}
+            key={card.key}
+            cardType={card.cardType}
+            displayName={card.displayName}
+            crop={card.crop || card}
+            onOpenDetail={() => setDetailCrop({ ...card.crop || card, cardType: card.cardType, iconName: card.crop?.mainName || card.mainName })}
           />
         ))}
       </main>
@@ -111,6 +152,7 @@ export default function App() {
           onClose={() => setDetailCrop(null)}
           favorites={favorites}
           onToggleFavorite={toggleFavorite}
+          cardType={detailCrop.cardType || 'main'}
         />
       )}
 

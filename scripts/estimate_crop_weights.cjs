@@ -72,17 +72,14 @@ function loadApiKeys() {
   return keys;
 }
 
+// 攤平 catalog variants，個別作為 batch 項目
 function flattenCatalog(catalog) {
-  const map = new Map();
+  const items = [];
   for (const item of catalog) {
     if (!item.name) continue;
-    const main = item.name.split(/[-–\/]/)[0].trim();
-    if (!map.has(main)) {
-      map.set(main, { mainName: main, plv3_name: item.plv3_name || main, variants: [] });
-    }
-    map.get(main).variants.push(item.name);
+    items.push(item.name);
   }
-  return [...map.values()].sort((a, b) => a.mainName.localeCompare(b.mainName));
+  return items.sort();
 }
 
 // ─── LLM 呼叫 ─────────────────────────────────────────────────
@@ -213,7 +210,7 @@ async function cmdRun() {
     return (async () => {
       const outputPath = path.join(responseDir, `batch_${batchNum}.json`);
       const batch = JSON.parse(fs.readFileSync(path.join(BATCH_DIR, f), 'utf8'));
-      const itemsList = batch.map((b) => `- ${b.mainName}`).join('\n');
+      const itemsList = batch.map((b) => `- ${b}`).join('\n');
       const systemPrompt = readPrompt();
       const userPrompt = `重要：你只能回傳一個 JSON 物件，絕對不要回傳任何其他文字或解釋。\n品項清單：\n${itemsList}\n\n必須嚴格遵守以下格式：\n{"items": [{"name": "品項名", "avgWeightKg": 數字, "weightUnit": "perPiece|perBundle|perKg", "confidence": "high|medium|low", "note": "說明"}, ...]}\n\nJSON：`;
 
@@ -254,23 +251,6 @@ function cmdMerge() {
     process.exit(1);
   }
 
-  // 建立 mainName → variants 映射（從 batch input）
-  const mainToVariants = new Map();
-  const inputFiles = fs.readdirSync(BATCH_DIR)
-    .filter((f) => f.startsWith('batch_') && f.endsWith('_input.json'));
-  for (const f of inputFiles) {
-    try {
-      const batch = JSON.parse(fs.readFileSync(path.join(BATCH_DIR, f), 'utf8'));
-      for (const item of batch) {
-        if (item.mainName && item.variants) {
-          mainToVariants.set(item.mainName, item.variants);
-        }
-      }
-    } catch (e) {
-      console.warn(`⚠ ${f} 讀取失敗:`, e.message);
-    }
-  }
-
   const files = fs.readdirSync(responsesDir).filter((f) => f.startsWith('batch_') && f.endsWith('.json'));
   const allWeights = [];
   for (const f of files) {
@@ -285,62 +265,31 @@ function cmdMerge() {
   const valid = allWeights.filter((w) => w.name && typeof w.avgWeightKg === 'number');
   console.log(`總回應: ${allWeights.length}，有效: ${valid.length}`);
 
-  // 處理 LLM 把 avgWeightKg 寫成 object 的情況（多變體品項）
-  let flattenedCount = 0;
-  for (const w of allWeights) {
-    if (w.name && typeof w.avgWeightKg === 'object' && w.avgWeightKg !== null) {
-      const vals = Object.values(w.avgWeightKg).filter((v) => typeof v === 'number');
-      if (vals.length > 0) {
-        const avg = vals.reduce((a, b) => a + b, 0) / vals.length;
-        w.avgWeightKg = parseFloat(avg.toFixed(3));
-        w.note = (w.note || '') + `（LLM 提供 ${vals.length} 變體，已取平均 ${w.avgWeightKg}kg）`;
-        if (typeof w.avgWeightKg === 'number') {
-          valid.push(w);
-          flattenedCount++;
-        }
-      }
-    }
-  }
-  if (flattenedCount > 0) console.log(`攤平 nested object: ${flattenedCount} 筆`);
-
-  // 擴展 mainName 回應到所有 variants
-  const expanded = [];
+  // 去除重複（同名只留第一筆）
   const seen = new Set();
+  const unique = [];
   for (const w of valid) {
-    const variants = mainToVariants.get(w.name);
-    if (variants) {
-      // 這是一個 mainName 回應，擴展到所有 variants
-      for (const v of variants) {
-        if (!seen.has(v)) {
-          expanded.push({ ...w, name: v });
-          seen.add(v);
-        }
-      }
-    } else {
-      // 已是 variant name 或不在 input 中，直接保留
-      if (!seen.has(w.name)) {
-        expanded.push(w);
-        seen.add(w.name);
-      }
+    if (!seen.has(w.name)) {
+      seen.add(w.name);
+      unique.push(w);
     }
   }
-
-  console.log(`擴展後（mainName→variants）: ${expanded.length} 筆`);
+  console.log(`去重後: ${unique.length} 筆`);
 
   const catalog = readCatalog();
   const allVariants = new Set();
   for (const item of catalog) if (item.name) allVariants.add(item.name);
-  const covered = new Set(expanded.map((w) => w.name));
+  const covered = new Set(unique.map((w) => w.name));
   const missing = [...allVariants].filter((v) => !covered.has(v));
   console.log(`Catalog 變體總數: ${allVariants.size}，已覆蓋: ${covered.size}，缺漏: ${missing.length}`);
-  if (missing.length && missing.length <= 20) {
+  if (missing.length && missing.length <= 30) {
     console.log('缺漏清單:', missing.join(', '));
   }
 
   const dir = path.dirname(OUTPUT_PATH);
   if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(expanded, null, 2));
-  console.log(`✓ 寫入 ${expanded.length} 筆到 ${OUTPUT_PATH}`);
+  fs.writeFileSync(OUTPUT_PATH, JSON.stringify(unique, null, 2));
+  console.log(`✓ 寫入 ${unique.length} 筆到 ${OUTPUT_PATH}`);
 }
 
 function cmdValidate() {
@@ -468,7 +417,7 @@ async function cmdTest() {
   }
   const firstBatch = inputFiles[0];
   const batch = JSON.parse(fs.readFileSync(path.join(BATCH_DIR, firstBatch), 'utf8'));
-  const itemsList = batch.map((b) => `- ${b.mainName}`).join('\n');
+  const itemsList = batch.map((b) => `- ${b}`).join('\n');
   const systemPrompt = readPrompt();
   const userPrompt = `重要：你只能回傳一個 JSON 物件，絕對不要回傳任何其他文字或解釋。\n品項清單：\n${itemsList}\n\n必須嚴格遵守以下格式：\n{"items": [{"name": "品項名", "avgWeightKg": 數字, "weightUnit": "perPiece|perBundle|perKg", "confidence": "high|medium|low", "note": "說明"}, ...]}\n\nJSON：`;
   const model = process.env.NVIDIA_MODEL || DEFAULT_MODEL;
