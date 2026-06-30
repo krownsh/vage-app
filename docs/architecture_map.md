@@ -282,10 +282,10 @@ flowchart TD
 - [x] 主畫面展開 main + variant 兩種卡片
 - [x] DetailModal variant 專屬顯示邏輯
 - [x] CropIcon 統一圖片佔位（variant 卡也用 mainName）
-- [ ] 各作物手繪插圖（主人提供）
+- [x] 各作物手繪插圖（主人提供）
 - [ ] 右側蔬菜籃插圖（主人提供）
 - [ ] 新品項進來時 alert/log 追蹤（catalog 缺漏 report）
-- [ ] crop_seasons 補完覆蓋率
+- [x] crop_seasons 覆蓋率 98%（303/309 mainNames，僅 6 個罕見品項缺口）
 
 ---
 

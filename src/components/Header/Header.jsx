@@ -10,10 +10,12 @@ export default function Header({ query, onQueryChange }) {
           </svg>
           農業部資料
         </span>
-        {/* 右上插圖佔位 — 主人之後提供手繪蔬菜籃插圖時，把這個 div 內部換成 <img src="..." /> */}
-        <div className="header-illustration" aria-hidden="true">
-          蔬菜籃插圖
-        </div>
+        <img
+          className="header-illustration"
+          src="/banner.png"
+          alt=""
+          aria-hidden="true"
+        />
       </div>
       <div className="search-row">
         <input
